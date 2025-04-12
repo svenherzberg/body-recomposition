@@ -75,11 +75,13 @@ class DayMealPlanning:
 
     def get_macro_percentages(self):
         calories, protein, fat, carbs = self.get_macros()
-        return protein*4/calories, fat*9/calories, carbs*4/calories
+        return 100*protein*4/calories, 100*fat*9/calories, 100*carbs*4/calories
 
     def show_macros(self):
         self.recalculate_macros()
         print(f'Calories {self.calories} Protein {self.protein} Fat {self.fat} Carbs {self.carbs}')
+        protein_percentage, fat_percentage, carbs_percentage = (int(x) for x in self.get_macro_percentages())
+        print(f'Protein {protein_percentage} % Fat {fat_percentage} % Carbs {carbs_percentage} %')
 
 
 
@@ -120,10 +122,12 @@ def get_meal_combinations(cookbook, number_meals, minimum_protein=120, calories_
     cnt = 1
     meal_combination_codes = list()
     for meal_ids in combinations(range(len(cookbook.recipes)), number_meals):
+        '''
         if 0 not in set(meal_ids):
             continue
         if set(meal_ids).intersection(set({3, 12})):
             continue
+        '''
         day = DayMealPlanning()
         for meal_id in meal_ids:
             day.add_meal_from_cookbook(cookbook, meal_id)
@@ -134,6 +138,11 @@ def get_meal_combinations(cookbook, number_meals, minimum_protein=120, calories_
             continue
         if protein < minimum_protein:
             continue
+        '''
+        protein_percentage, fat_percentage, carbs_percentage = day.get_macro_percentages()
+        if protein_percentage < 40:
+            continue
+        '''
         meal_combination_codes.append(meal_ids)
         print(f'\n*** Recipe Combination # {cnt} ***********************************')
         day.show_macros()
