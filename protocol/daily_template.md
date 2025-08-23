@@ -1,17 +1,18 @@
-## So, 23.02.2025 (KW08)
+YYYY-MM-DD
+---
+Weight:
+Calories:
+Protein: 
+Fat: 
+Carbs: 
+abdgirth:
+Sleep:
+---
 
-Gewicht: 74
+Frühstück
 
-Bauchumfang: 105
+Mittagessen
 
-### Ernährung  
-#### Frühstück
-  Uhrzeit:
+Abendessen
 
-#### Mittagessen
-  Uhrzeit:
-
-#### Abendessen
-  Uhrzeit:
-
-### Beobachtungen/Anmerkungen
+Snacks
