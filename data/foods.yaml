@@ -1,0 +1,79 @@
+oats:
+  name: Oats, rolled
+  kcal_per_100g: 389
+  protein_g_per_100g: 17
+  carbs_g_per_100g: 66
+  fat_g_per_100g: 7
+  aliases: ["haferflocken", "oat", "oats"]
+
+soy_flakes:
+  name: Soy flakes
+  kcal_per_100g: 400
+  protein_g_per_100g: 36
+  carbs_g_per_100g: 30
+  fat_g_per_100g: 16
+  aliases: ["sojaflocken", "soy flakes"]
+
+crushed_flaxseed:
+  name: Flaxseed, crushed
+  kcal_per_100g: 534
+  protein_g_per_100g: 18
+  carbs_g_per_100g: 29
+  fat_g_per_100g: 42
+  aliases: ["geschrottet leinsamen", "leinsamen", "flaxseed", "crushed flaxseed"]
+
+flax_oil:
+  name: Flaxseed oil
+  kcal_per_100g: 884
+  protein_g_per_100g: 0
+  carbs_g_per_100g: 0
+  fat_g_per_100g: 100
+  aliases: ["leinöl", "flax oil", "flax_oil"]
+
+lowfat_milk:
+  name: Milk, lowfat
+  kcal_per_100g: 42
+  protein_g_per_100g: 3.4
+  carbs_g_per_100g: 5
+  fat_g_per_100g: 1
+  aliases: ["fettarme milch", "lowfat milk", "milk"]
+
+quark_lowfat:
+  name: Quark, lowfat
+  kcal_per_100g: 72
+  protein_g_per_100g: 12
+  carbs_g_per_100g: 4
+  fat_g_per_100g: 0.5
+  aliases: ["magerquark", "quark", "quark_lowfat"]
+
+blueberries:
+  name: Blueberries
+  kcal_per_100g: 57
+  protein_g_per_100g: 0.7
+  carbs_g_per_100g: 14.5
+  fat_g_per_100g: 0.3
+  aliases: ["heidelbeeren", "blueberries"]
+
+brown_rice:
+  name: Brown rice, cooked
+  kcal_per_100g: 123
+  protein_g_per_100g: 2.7
+  carbs_g_per_100g: 25.6
+  fat_g_per_100g: 1
+  aliases: ["vollkornreis", "uncle bens vollkornreis", "brown_rice", "rice"]
+
+lentils:
+  name: Lentils, cooked
+  kcal_per_100g: 116
+  protein_g_per_100g: 9
+  carbs_g_per_100g: 20
+  fat_g_per_100g: 0.4
+  aliases: ["linsen", "lentils"]
+
+chickpeas:
+  name: Chickpeas, cooked
+  kcal_per_100g: 164
+  protein_g_per_100g: 8.9
+  carbs_g_per_100g: 27.4
+  fat_g_per_100g: 2.6
+  aliases: ["kichererbsen", "chickpeas"]

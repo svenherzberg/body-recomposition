@@ -1,0 +1,33 @@
+[
+  {
+    "file": "2025-10-27.md",
+    "date": "2025-10-27",
+    "meta": {
+      "⸻weight": 70.9,
+      "bmi": 25.1,
+      "bodyfat_percentage": 24.5,
+      "water_percentage": 51.8,
+      "muscle_percentage": 39.5,
+      "bones": 2.8,
+      "target_calories": 2300.0,
+      "target_protein": 150.0,
+      "target_fat": 80.0,
+      "target_carbs": 240.0,
+      "actual_calories": 2258.0,
+      "actual_protein": 157.0,
+      "actual_fat": 84.0,
+      "actual_carbs": 184.0,
+      "abdgirth": 101.0,
+      "sleep": 7.0,
+      "steps": "",
+      "comment": "Home",
+      "bodyfat_pct": 24.5
+    },
+    "consumed": {
+      "kcal": 1228.38,
+      "protein_g": 85.48,
+      "carbs_g": 167.26,
+      "fat_g": 24.85
+    }
+  }
+]

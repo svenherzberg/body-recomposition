@@ -1,0 +1,37 @@
+name: Generate summaries
+
+on:
+  schedule:
+    - cron: '0 6 * * *' # daily 06:00 UTC
+  push:
+    paths:
+      - 'logs/**'
+      - 'data/**'
+      - 'protocol/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+      - name: Parse logs
+        run: python scripts/parse_logs.py
+      - name: Aggregate protocol headers
+        run: python scripts/aggregate_protocol.py
+      - name: Plot metrics (best-effort)
+        run: |
+          if [ -f scripts/plot_metrics.py ]; then python scripts/plot_metrics.py || true; fi
+      - name: Upload outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: body-summaries
+          path: outputs/
+          retention-days: 30
