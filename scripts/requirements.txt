@@ -2,3 +2,5 @@ pyyaml
 python-frontmatter
 pandas
 matplotlib
+openpyxl
+plotly

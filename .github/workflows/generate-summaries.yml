@@ -34,4 +34,4 @@ jobs:
         with:
           name: body-summaries
           path: outputs/
-          retention-days: 30
+          retention-days: 90

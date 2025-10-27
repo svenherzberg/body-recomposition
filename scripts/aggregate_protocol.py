@@ -11,6 +11,7 @@ Behavior:
 import os
 import re
 import frontmatter
+import pandas as pd
 from glob import glob
 from collections import OrderedDict
 
@@ -191,8 +192,8 @@ def gather_protocol_metas():
 
 
 def write_markdown_table(rows, keys, outpath):
-    # header: file + keys
-    header_cols = ['file'] + keys
+    # header: use keys (include date) but do not include filename
+    header_cols = keys
     with open(outpath, 'w', encoding='utf-8') as f:
         f.write('# Protocol headers summary\n\n')
         f.write('Generated from `protocol/` files. Columns are the union of header keys found.\n\n')
@@ -206,7 +207,21 @@ def write_markdown_table(rows, keys, outpath):
                 # escape pipes
                 v = str(v).replace('|', '\\|')
                 vals.append(v)
-            f.write('| ' + ' | '.join([rel] + vals) + ' |\n')
+            f.write('| ' + ' | '.join(vals) + ' |\n')
+
+
+def write_excel(rows, keys, outpath):
+    # Build list of dicts for DataFrame; include date and other keys, exclude filename
+    records = []
+    for rel, meta in rows:
+        rec = {k: meta.get(k, '') for k in keys}
+        records.append(rec)
+    df = pd.DataFrame(records)
+    # ensure date column is first if present
+    if 'date' in df.columns:
+        cols = ['date'] + [c for c in df.columns if c != 'date']
+        df = df[cols]
+    df.to_excel(outpath, index=False)
 
 
 def main():
@@ -214,6 +229,13 @@ def main():
     out = os.path.join(OUT_DIR, 'protocol_summary.md')
     write_markdown_table(rows, keys, out)
     print('Wrote', out)
+    # also write Excel
+    out_xlsx = os.path.join(OUT_DIR, 'protocol_summary.xlsx')
+    try:
+        write_excel(rows, keys, out_xlsx)
+        print('Wrote', out_xlsx)
+    except Exception as e:
+        print('Could not write Excel file:', e)
 
 
 if __name__ == '__main__':
