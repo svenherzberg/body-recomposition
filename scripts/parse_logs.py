@@ -148,6 +148,12 @@ def process_file(path, foods, slug_by_alias, aliases_list):
         post = frontmatter.loads('---\n---\n' + text)
 
     meta = post.metadata or {}
+    # normalize frontmatter keys to lowercase with underscores so downstream code can find them
+    if isinstance(meta, dict) and meta:
+        meta = {str(k).strip().lower().replace(' ', '_'): v for k, v in meta.items()}
+    # normalize frontmatter keys to lowercase with underscores so downstream code can find them
+    if isinstance(meta, dict) and meta:
+        meta = {str(k).strip().lower().replace(' ', '_'): v for k, v in meta.items()}
     if not meta and used_fallback_text is not None:
         # try parse header KV style (the file you provided)
         meta = parse_header_kv(used_fallback_text)
@@ -163,7 +169,7 @@ def process_file(path, foods, slug_by_alias, aliases_list):
         post.content = remainder
 
     date = meta.get('date') or os.path.basename(path).replace('.md', '')
-    # ensure numeric normalization
+    # ensure numeric normalization (convert numeric-looking strings to numbers)
     for k, v in list(meta.items()):
         if isinstance(v, str):
             num = to_number(v)
@@ -172,6 +178,29 @@ def process_file(path, foods, slug_by_alias, aliases_list):
 
     consumed = defaultdict(float)
     missing = []
+    # extract a Status/Agenda section from content: look for a heading 'Status' or 'Agenda' and collect following non-empty lines
+    status_text = None
+    for line in post.content.splitlines():
+        # detect a heading like 'Status' or 'Agenda' (standalone line)
+        if line.strip().lower() in ('status', 'agenda'):
+            # collect subsequent non-empty lines until next blank line or next heading starting with '**' or '#'
+            buf = []
+            collect = False
+            for L in post.content.splitlines()[post.content.splitlines().index(line)+1:]:
+                s = L.strip()
+                if not s:
+                    break
+                if s.startswith('#') or s.startswith('**'):
+                    break
+                buf.append(s)
+            if buf:
+                # join lines and keep short (first 120 chars)
+                status_text = ' '.join(buf).strip()
+                if len(status_text) > 120:
+                    status_text = status_text[:117] + '...'
+            break
+    if status_text:
+        meta['status'] = status_text
 
     for line in post.content.splitlines():
         if not line.strip():

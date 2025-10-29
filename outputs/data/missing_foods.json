@@ -1,52 +1,597 @@
 [
   {
-    "file": "2025-10-27.md",
-    "line": "Target_calories: 2300 kcal",
+    "file": "2025-10-19.md",
+    "line": "72 g Banane (ohne Schale, frisch)",
+    "name": "Banane (ohne Schale, frisch)"
+  },
+  {
+    "file": "2025-10-19.md",
+    "line": "60 g Quinoa",
+    "name": "Quinoa"
+  },
+  {
+    "file": "2025-10-19.md",
+    "line": "450 g Hokkaido Kürbis",
+    "name": "Hokkaido Kürbis"
+  },
+  {
+    "file": "2025-10-19.md",
+    "line": "125 g Kidneybohnen (rote Bohnen, Konserve)",
+    "name": "Kidneybohnen (rote Bohnen, Konserve)"
+  },
+  {
+    "file": "2025-10-19.md",
+    "line": "200 g Champignons (frisch)",
+    "name": "Champignons (frisch)"
+  },
+  {
+    "file": "2025-10-19.md",
+    "line": "100 g Cherrytomaten (Cocktailtomaten, frisch)",
+    "name": "Cherrytomaten (Cocktailtomaten, frisch)"
+  },
+  {
+    "file": "2025-10-19.md",
+    "line": "160 g Hühnerbrustfilet, gebraten",
+    "name": "Hühnerbrustfilet, gebraten"
+  },
+  {
+    "file": "2025-10-19.md",
+    "line": "6 g Sonnenblumenöl",
+    "name": "Sonnenblumenöl"
+  },
+  {
+    "file": "2025-10-19.md",
+    "line": "62,5 g Spinat (Blattspinat, frisch)",
+    "name": "Spinat (Blattspinat, frisch)"
+  },
+  {
+    "file": "2025-10-19.md",
+    "line": "15 g Parmesan Käse",
+    "name": "Parmesan Käse"
+  },
+  {
+    "file": "2025-10-19.md",
+    "line": "70 g Vollkornnudeln, roh",
+    "name": "Vollkornnudeln, roh"
+  },
+  {
+    "file": "2025-10-19.md",
+    "line": "50 g Kochsahne 7 % (Milfina, Aldi)",
+    "name": "Kochsahne 7 % (Milfina, Aldi)"
+  },
+  {
+    "file": "2025-10-20.md",
+    "line": "72 g Banane (ohne Schale, frisch)",
+    "name": "Banane (ohne Schale, frisch)"
+  },
+  {
+    "file": "2025-10-20.md",
+    "line": "1 Portion Kohlrabihühnchen",
+    "name": "Portion Kohlrabihühnchen"
+  },
+  {
+    "file": "2025-10-20.md",
+    "line": "1 Portion Quiche",
+    "name": "Portion Quiche"
+  },
+  {
+    "file": "2025-10-20.md",
+    "line": "60 g Halloumi (Grillkäse)",
+    "name": "Halloumi (Grillkäse)"
+  },
+  {
+    "file": "2025-10-21.md",
+    "line": "72 g Banane (ohne Schale, frisch)",
+    "name": "Banane (ohne Schale, frisch)"
+  },
+  {
+    "file": "2025-10-21.md",
+    "line": "1 Portion Kohlrabihühnchen",
+    "name": "Portion Kohlrabihühnchen"
+  },
+  {
+    "file": "2025-10-21.md",
+    "line": "1 Portion Quiche",
+    "name": "Portion Quiche"
+  },
+  {
+    "file": "2025-10-21.md",
+    "line": "33 g Runde braune Lebkuchen (Wintertraum, Aldi)",
+    "name": "Runde braune Lebkuchen (Wintertraum, Aldi)"
+  },
+  {
+    "file": "2025-10-21.md",
+    "line": "33 g Runde braune Lebkuchen (Wintertraum, Aldi)",
+    "name": "Runde braune Lebkuchen (Wintertraum, Aldi)"
+  },
+  {
+    "file": "2025-10-22.md",
+    "line": "Energie: 442 kcal",
     "name": "kcal"
   },
   {
-    "file": "2025-10-27.md",
-    "line": "Target_protein: 150 g",
+    "file": "2025-10-22.md",
+    "line": "Energie: 1853 kJ Fett gesamt: 20,2 g",
+    "name": "kJ Fett gesamt: 20,2 g"
+  },
+  {
+    "file": "2025-10-22.md",
+    "line": "davon gesättigte Fettsäuren: 6,6 g",
     "name": "g"
   },
   {
-    "file": "2025-10-27.md",
-    "line": "Target_fat: 80 g",
+    "file": "2025-10-22.md",
+    "line": "Kohlenhydrate: 36,7 g",
     "name": "g"
   },
   {
-    "file": "2025-10-27.md",
-    "line": "Target_carbs: 240 g",
+    "file": "2025-10-22.md",
+    "line": "davon Zucker: 12,8 g",
     "name": "g"
   },
   {
-    "file": "2025-10-27.md",
-    "line": "Actual_calories:2258 kcal",
-    "name": "kcal"
-  },
-  {
-    "file": "2025-10-27.md",
-    "line": "Actual_protein:157 g",
+    "file": "2025-10-22.md",
+    "line": "Eiweiß: 27,1 g",
     "name": "g"
   },
   {
-    "file": "2025-10-27.md",
-    "line": "Actual_fat:84 g",
+    "file": "2025-10-22.md",
+    "line": "49 g Banane",
+    "name": "Banane"
+  },
+  {
+    "file": "2025-10-22.md",
+    "line": "Thunfisch 140 g",
     "name": "g"
   },
   {
-    "file": "2025-10-27.md",
-    "line": "Actual_carbs:184 g",
+    "file": "2025-10-22.md",
+    "line": "Kidneybohnen 130 g",
     "name": "g"
   },
   {
-    "file": "2025-10-27.md",
-    "line": "abdgirth:101 cm",
-    "name": "cm"
+    "file": "2025-10-22.md",
+    "line": "Erbsen&Möhren 130 g",
+    "name": "g"
+  },
+  {
+    "file": "2025-10-23.md",
+    "line": "1 Portion Quiche",
+    "name": "Portion Quiche"
+  },
+  {
+    "file": "2025-10-23.md",
+    "line": "1 Stück (18½ g) Korn & Schoko (Joghurt & Waldbeeren) (Aldi)",
+    "name": "Stück (18½ g) Korn & Schoko (Joghurt & Waldbeeren) (Aldi)"
+  },
+  {
+    "file": "2025-10-23.md",
+    "line": "1 Stück (7¾ g) Lotus Biscoff",
+    "name": "Stück (7¾ g) Lotus Biscoff"
+  },
+  {
+    "file": "2025-10-23.md",
+    "line": "1 Stück (7¾ g) Lotus Biscoff",
+    "name": "Stück (7¾ g) Lotus Biscoff"
+  },
+  {
+    "file": "2025-10-23.md",
+    "line": "40 g Gruyere Käse",
+    "name": "Gruyere Käse"
+  },
+  {
+    "file": "2025-10-23.md",
+    "line": "200 g Champignons (Pilze, frisch)",
+    "name": "Champignons (Pilze, frisch)"
+  },
+  {
+    "file": "2025-10-23.md",
+    "line": "100 g Tomaten (passiert, Konserve)",
+    "name": "Tomaten (passiert, Konserve)"
+  },
+  {
+    "file": "2025-10-23.md",
+    "line": "330 g Aubergine (frisch)",
+    "name": "Aubergine (frisch)"
+  },
+  {
+    "file": "2025-10-23.md",
+    "line": "250 g Rinderhackfleisch (2 Portionen)",
+    "name": "Rinderhackfleisch (2 Portionen)"
+  },
+  {
+    "file": "2025-10-23.md",
+    "line": "40 g Gebäck (Snäcky Knabbergebäck, 1 Portion)",
+    "name": "Gebäck (Snäcky Knabbergebäck, 1 Portion)"
+  },
+  {
+    "file": "2025-10-23.md",
+    "line": "40 g Gebäck (Snäcky Knabbergebäck, 1 Portion)",
+    "name": "Gebäck (Snäcky Knabbergebäck, 1 Portion)"
+  },
+  {
+    "file": "2025-10-23.md",
+    "line": "1 Riegel (18½ g) Cerealisto (Choceur, Aldi)",
+    "name": "Riegel (18½ g) Cerealisto (Choceur, Aldi)"
+  },
+  {
+    "file": "2025-10-23.md",
+    "line": "56 g Banane (ohne Schale, frisch)",
+    "name": "Banane (ohne Schale, frisch)"
+  },
+  {
+    "file": "2025-10-23.md",
+    "line": "250 g Skyr Natur",
+    "name": "Skyr Natur"
+  },
+  {
+    "file": "2025-10-23.md",
+    "line": "1 Stück (7¾ g) Lotus Biscoff",
+    "name": "Stück (7¾ g) Lotus Biscoff"
+  },
+  {
+    "file": "2025-10-23.md",
+    "line": "1 Stück (7¾ g) Lotus Biscoff",
+    "name": "Stück (7¾ g) Lotus Biscoff"
+  },
+  {
+    "file": "2025-10-23.md",
+    "line": "1 Portion (37½ g) Snackbox Knabbergebäck (Netto Marken Discount)",
+    "name": "Portion (37½ g) Snackbox Knabbergebäck (Netto Marken Discount)"
+  },
+  {
+    "file": "2025-10-24.md",
+    "line": "250 g Skyr Natur",
+    "name": "Skyr Natur"
+  },
+  {
+    "file": "2025-10-24.md",
+    "line": "56 g Banane (ohne Schale, frisch)",
+    "name": "Banane (ohne Schale, frisch)"
+  },
+  {
+    "file": "2025-10-24.md",
+    "line": "250 g Rinderhackfleisch (2 Portionen)",
+    "name": "Rinderhackfleisch (2 Portionen)"
+  },
+  {
+    "file": "2025-10-24.md",
+    "line": "330 g Aubergine (frisch)",
+    "name": "Aubergine (frisch)"
+  },
+  {
+    "file": "2025-10-24.md",
+    "line": "100 g Tomaten (passiert, Konserve)",
+    "name": "Tomaten (passiert, Konserve)"
+  },
+  {
+    "file": "2025-10-24.md",
+    "line": "200 g Champignons (Pilze, frisch)",
+    "name": "Champignons (Pilze, frisch)"
+  },
+  {
+    "file": "2025-10-24.md",
+    "line": "40 g Gruyere Käse (1 Portion)",
+    "name": "Gruyere Käse (1 Portion)"
+  },
+  {
+    "file": "2025-10-24.md",
+    "line": "100 g Erbsen (in der Dose)",
+    "name": "Erbsen (in der Dose)"
+  },
+  {
+    "file": "2025-10-24.md",
+    "line": "260 g Natur Reis (Uncle Bens, 2 Portionen)",
+    "name": "Natur Reis (Uncle Bens, 2 Portionen)"
+  },
+  {
+    "file": "2025-10-24.md",
+    "line": "228 g Hühnerbrust (roh)",
+    "name": "Hühnerbrust (roh)"
+  },
+  {
+    "file": "2025-10-24.md",
+    "line": "30 g Cashewkerne",
+    "name": "Cashewkerne"
+  },
+  {
+    "file": "2025-10-25.md",
+    "line": "250 g Skyr Natur",
+    "name": "Skyr Natur"
+  },
+  {
+    "file": "2025-10-25.md",
+    "line": "56 g Banane (ohne Schale, frisch)",
+    "name": "Banane (ohne Schale, frisch)"
+  },
+  {
+    "file": "2025-10-25.md",
+    "line": "450 g Hokkaido Kürbis",
+    "name": "Hokkaido Kürbis"
+  },
+  {
+    "file": "2025-10-25.md",
+    "line": "70 g Quinoa",
+    "name": "Quinoa"
+  },
+  {
+    "file": "2025-10-25.md",
+    "line": "150 g Karotten (Möhren, frisch)",
+    "name": "Karotten (Möhren, frisch)"
+  },
+  {
+    "file": "2025-10-25.md",
+    "line": "125 g Kokosmilch (Kokosnussmilch, Konserve)",
+    "name": "Kokosmilch (Kokosnussmilch, Konserve)"
+  },
+  {
+    "file": "2025-10-25.md",
+    "line": "150 g Pak Choi (1 Portion)",
+    "name": "Pak Choi (1 Portion)"
+  },
+  {
+    "file": "2025-10-25.md",
+    "line": "100 g Tempeh (Tempehmanufaktur)",
+    "name": "Tempeh (Tempehmanufaktur)"
+  },
+  {
+    "file": "2025-10-25.md",
+    "line": "200 g Prinzregententorte (2 Stück)",
+    "name": "Prinzregententorte (2 Stück)"
+  },
+  {
+    "file": "2025-10-25.md",
+    "line": "50 g Doritos",
+    "name": "Doritos"
+  },
+  {
+    "file": "2025-10-26.md",
+    "line": "250 g Skyr Natur",
+    "name": "Skyr Natur"
+  },
+  {
+    "file": "2025-10-26.md",
+    "line": "56 g Banane (ohne Schale, frisch)",
+    "name": "Banane (ohne Schale, frisch)"
+  },
+  {
+    "file": "2025-10-26.md",
+    "line": "100 g Prinzregententorte (1 Stück)",
+    "name": "Prinzregententorte (1 Stück)"
+  },
+  {
+    "file": "2025-10-26.md",
+    "line": "100 g Tempeh (Tempehmanufaktur)",
+    "name": "Tempeh (Tempehmanufaktur)"
+  },
+  {
+    "file": "2025-10-26.md",
+    "line": "150 g Pak Choi (1 Portion)",
+    "name": "Pak Choi (1 Portion)"
+  },
+  {
+    "file": "2025-10-26.md",
+    "line": "125 g Kokosmilch (Kokosnussmilch, Konserve)",
+    "name": "Kokosmilch (Kokosnussmilch, Konserve)"
+  },
+  {
+    "file": "2025-10-26.md",
+    "line": "150 g Karotten (Möhren, frisch)",
+    "name": "Karotten (Möhren, frisch)"
+  },
+  {
+    "file": "2025-10-26.md",
+    "line": "62,5 g Himbeeren (frisch)",
+    "name": "Himbeeren (frisch)"
+  },
+  {
+    "file": "2025-10-26.md",
+    "line": "150 g Käsesahnetorte (1 Stück)",
+    "name": "Käsesahnetorte (1 Stück)"
+  },
+  {
+    "file": "2025-10-26.md",
+    "line": "100 g Apfelkuchen mit Mandelkruste (1 Stück)",
+    "name": "Apfelkuchen mit Mandelkruste (1 Stück)"
   },
   {
     "file": "2025-10-27.md",
-    "line": "Sleep: 7:24",
-    "name": ":24"
+    "line": "125 g Lachs (gebraten)",
+    "name": "Lachs (gebraten)"
+  },
+  {
+    "file": "2025-10-27.md",
+    "line": "200 g Prinzessbohnen (Freshona, Lidl)",
+    "name": "Prinzessbohnen (Freshona, Lidl)"
+  },
+  {
+    "file": "2025-10-27.md",
+    "line": "62,5 g Natur-Reis (trocken, Uncle Bens, 1 Portion)",
+    "name": "Natur-Reis (trocken, Uncle Bens, 1 Portion)"
+  },
+  {
+    "file": "2025-10-27.md",
+    "line": "62,5 g Natur-Reis (trocken, Uncle Bens, 1 Portion)",
+    "name": "Natur-Reis (trocken, Uncle Bens, 1 Portion)"
+  },
+  {
+    "file": "2025-10-27.md",
+    "line": "6 g Sesamöl",
+    "name": "Sesamöl"
+  },
+  {
+    "file": "2025-10-27.md",
+    "line": "100 ml Kokosnussmilch fettreduziert (Asia Green Garden, Aldi)",
+    "name": "ml Kokosnussmilch fettreduziert (Asia Green Garden, Aldi)"
+  },
+  {
+    "file": "2025-10-27.md",
+    "line": "150 g Rosenkohl (gefroren, 1 Portion)",
+    "name": "Rosenkohl (gefroren, 1 Portion)"
+  },
+  {
+    "file": "2025-10-27.md",
+    "line": "180 g Bio-Tofu geräuchert (MyVay, 1 Stück)",
+    "name": "Bio-Tofu geräuchert (MyVay, 1 Stück)"
+  },
+  {
+    "file": "2025-10-27.md",
+    "line": "80 g Himbeeren (frisch)",
+    "name": "Himbeeren (frisch)"
+  },
+  {
+    "file": "2025-10-27.md",
+    "line": "250 g Speisequark Magerstufe 0,3 % (Milsani, Aldi)",
+    "name": "Speisequark Magerstufe 0,3 % (Milsani, Aldi)"
+  },
+  {
+    "file": "2025-10-28.md",
+    "line": "62,5 g Natur-Reis (trocken, Uncle Bens, 1 Portion)",
+    "name": "Natur-Reis (trocken, Uncle Bens, 1 Portion)"
+  },
+  {
+    "file": "2025-10-28.md",
+    "line": "200 g Prinzessbohnen (Freshona, Lidl)",
+    "name": "Prinzessbohnen (Freshona, Lidl)"
+  },
+  {
+    "file": "2025-10-28.md",
+    "line": "125 g Lachs (gebraten)",
+    "name": "Lachs (gebraten)"
+  },
+  {
+    "file": "2025-10-28.md",
+    "line": "44 g Mini Erdnuss Schokoriegel (Ja!, Rewe, 2 Riegel)",
+    "name": "Mini Erdnuss Schokoriegel (Ja!, Rewe, 2 Riegel)"
+  },
+  {
+    "file": "2025-10-28.md",
+    "line": "56 g Mini Schokoriegel (Ja!, Rewe, 2 Stück)",
+    "name": "Mini Schokoriegel (Ja!, Rewe, 2 Stück)"
+  },
+  {
+    "file": "2025-10-28.md",
+    "line": "25,5 g Peanut Schokoriegel Minis (Ja!, Rewe, 1 Riegel)",
+    "name": "Peanut Schokoriegel Minis (Ja!, Rewe, 1 Riegel)"
+  },
+  {
+    "file": "2025-10-28.md",
+    "line": "28 g Mini-Kokos-Schokoriegel (Ja!, Rewe, 1 Riegel)",
+    "name": "Mini-Kokos-Schokoriegel (Ja!, Rewe, 1 Riegel)"
+  },
+  {
+    "file": "2025-10-28.md",
+    "line": "180 g Bio Tofu geräuchert (MyVay, 1 Stück)",
+    "name": "Bio Tofu geräuchert (MyVay, 1 Stück)"
+  },
+  {
+    "file": "2025-10-28.md",
+    "line": "150 g Rosenkohl (gefroren, 1 Portion)",
+    "name": "Rosenkohl (gefroren, 1 Portion)"
+  },
+  {
+    "file": "2025-10-28.md",
+    "line": "100 ml Kokosnussmilch fettreduziert (Asia Green Garden, Aldi)",
+    "name": "ml Kokosnussmilch fettreduziert (Asia Green Garden, Aldi)"
+  },
+  {
+    "file": "2025-10-28.md",
+    "line": "6 g Sesamöl",
+    "name": "Sesamöl"
+  },
+  {
+    "file": "2025-10-28.md",
+    "line": "200 ml Apfelsaft (1 Glas)",
+    "name": "ml Apfelsaft (1 Glas)"
+  },
+  {
+    "file": "2025-10-28.md",
+    "line": "250 ml Energie Drink (Rockstar Energy, ½ Dose)",
+    "name": "ml Energie Drink (Rockstar Energy, ½ Dose)"
+  },
+  {
+    "file": "2025-10-28.md",
+    "line": "500 g Speisequark Magerstufe 0,3 % (Milsani, Aldi, 2 Portionen)",
+    "name": "Speisequark Magerstufe 0,3 % (Milsani, Aldi, 2 Portionen)"
+  },
+  {
+    "file": "2025-10-28.md",
+    "line": "80 g Himbeeren (frisch)",
+    "name": "Himbeeren (frisch)"
+  },
+  {
+    "file": "2025-10-29.md",
+    "line": "100 g Putenbrust mit Honig (Güldenhof, Aldi)",
+    "name": "Putenbrust mit Honig (Güldenhof, Aldi)"
+  },
+  {
+    "file": "2025-10-29.md",
+    "line": "120 g Hühnerei, Eier, roh (2 Eier, mittelgroß)",
+    "name": "Hühnerei, Eier, roh (2 Eier, mittelgroß)"
+  },
+  {
+    "file": "2025-10-29.md",
+    "line": "6 g Sonnenblumenöl",
+    "name": "Sonnenblumenöl"
+  },
+  {
+    "file": "2025-10-29.md",
+    "line": "50 g Creme a la cuisine (Aldi, 1 Portion)",
+    "name": "Creme a la cuisine (Aldi, 1 Portion)"
+  },
+  {
+    "file": "2025-10-29.md",
+    "line": "130 g Dinkel-Pasta Maccaroni (Landfreude, Aldi)",
+    "name": "Dinkel-Pasta Maccaroni (Landfreude, Aldi)"
+  },
+  {
+    "file": "2025-10-29.md",
+    "line": "15 g Parmesan Käse",
+    "name": "Parmesan Käse"
+  },
+  {
+    "file": "2025-10-29.md",
+    "line": "200 g Champignons (Pilze, frisch)",
+    "name": "Champignons (Pilze, frisch)"
+  },
+  {
+    "file": "2025-10-29.md",
+    "line": "100 g Cherrytomaten (Cocktailtomaten, frisch)",
+    "name": "Cherrytomaten (Cocktailtomaten, frisch)"
+  },
+  {
+    "file": "2025-10-29.md",
+    "line": "230 g Hähnchenbrustfilet (Landjunker, Lidl)",
+    "name": "Hähnchenbrustfilet (Landjunker, Lidl)"
+  },
+  {
+    "file": "2025-10-29.md",
+    "line": "360 ml Ajvar, mild (Clama GmbH)",
+    "name": "ml Ajvar, mild (Clama GmbH)"
+  },
+  {
+    "file": "2025-10-29.md",
+    "line": "200 g Kabeljaufilet (Followfish)",
+    "name": "Kabeljaufilet (Followfish)"
+  },
+  {
+    "file": "2025-10-29.md",
+    "line": "100 g Cherrytomaten (Cocktailtomaten, frisch)",
+    "name": "Cherrytomaten (Cocktailtomaten, frisch)"
+  },
+  {
+    "file": "2025-10-29.md",
+    "line": "125 g Natur-Reis (trocken, Uncle Bens, 2 Portionen)",
+    "name": "Natur-Reis (trocken, Uncle Bens, 2 Portionen)"
+  },
+  {
+    "file": "2025-10-29.md",
+    "line": "6 g Sonnenblumenöl",
+    "name": "Sonnenblumenöl"
+  },
+  {
+    "file": "2025-10-29.md",
+    "line": "20 g Cashewsp",
+    "name": "Cashewsp"
   }
 ]

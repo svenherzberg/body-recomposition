@@ -37,6 +37,17 @@ def load_summary(path):
             'target_calories': to_float(meta.get('target_calories')),
             'actual_calories': to_float(meta.get('actual_calories')),
             'consumed_kcal': float(item.get('consumed', {}).get('kcal', 0)),
+            'status': meta.get('status') if isinstance(meta, dict) else None,
+            # macros (grams)
+            'consumed_protein_g': float(item.get('consumed', {}).get('protein_g', 0)),
+            'consumed_fat_g': float(item.get('consumed', {}).get('fat_g', 0)),
+            'consumed_carbs_g': float(item.get('consumed', {}).get('carbs_g', 0)),
+            'target_protein_g': to_float(meta.get('target_protein_g') or meta.get('target_protein') or meta.get('target_protein_g')),
+            'target_fat_g': to_float(meta.get('target_fat_g') or meta.get('target_fat') or meta.get('target_fat_g')),
+            'target_carbs_g': to_float(meta.get('target_carbs_g') or meta.get('target_carbs') or meta.get('target_carbs_g')),
+            'actual_protein_g': to_float(meta.get('actual_protein_g') or meta.get('actual_protein') or meta.get('actual_protein_g')),
+            'actual_fat_g': to_float(meta.get('actual_fat_g') or meta.get('actual_fat') or meta.get('actual_fat_g')),
+            'actual_carbs_g': to_float(meta.get('actual_carbs_g') or meta.get('actual_carbs') or meta.get('actual_carbs_g')),
         })
     df = pd.DataFrame(rows)
     df = df.dropna(subset=['date']).sort_values('date')
@@ -57,36 +68,39 @@ def plot_weight(df):
     if df['weight_kg'].notna().sum() == 0:
         print('No weight data to plot')
         return
-    plt.figure(figsize=(8,4))
-    plt.plot(df['date'], df['weight_kg'], marker='o', linestyle='-', label='Weight (kg)')
+    fig, ax = plt.subplots(figsize=(8,4))
+    ax.plot(df['date'], df['weight_kg'], marker='o', linestyle='-', label='Weight (kg)')
     if len(df) >= 3:
         df['w_ma'] = df['weight_kg'].rolling(window=7, min_periods=1).mean()
-        plt.plot(df['date'], df['w_ma'], linestyle='--', label='7-day MA')
-    plt.xlabel('Date')
-    plt.ylabel('Weight (kg)')
-    plt.title('Weight over time')
-    plt.grid(alpha=0.3)
-    plt.tight_layout()
+        ax.plot(df['date'], df['w_ma'], linestyle='--', label='7-day MA')
+    ax.set_xlabel('Date')
+    ax.set_ylabel('Weight (kg)')
+    ax.set_title('Weight over time')
+    ax.grid(alpha=0.3)
+    fig.tight_layout()
     out = os.path.join(OUT_DIR, 'weight.png')
-    plt.savefig(out)
-    plt.close()
+    fig.savefig(out)
+    plt.close(fig)
     print('Wrote', out)
+
+
+# status annotations removed per user request
 
 
 def plot_bodyfat(df):
     if df['bodyfat_pct'].notna().sum() == 0:
         print('No bodyfat data to plot')
         return
-    plt.figure(figsize=(8,4))
-    plt.plot(df['date'], df['bodyfat_pct'], marker='o', linestyle='-', color='C1')
-    plt.xlabel('Date')
-    plt.ylabel('Bodyfat (%)')
-    plt.title('Bodyfat over time')
-    plt.grid(alpha=0.3)
-    plt.tight_layout()
+    fig, ax = plt.subplots(figsize=(8,4))
+    ax.plot(df['date'], df['bodyfat_pct'], marker='o', linestyle='-', color='C1')
+    ax.set_xlabel('Date')
+    ax.set_ylabel('Bodyfat (%)')
+    ax.set_title('Bodyfat over time')
+    ax.grid(alpha=0.3)
+    fig.tight_layout()
     out = os.path.join(OUT_DIR, 'bodyfat.png')
-    plt.savefig(out)
-    plt.close()
+    fig.savefig(out)
+    plt.close(fig)
     print('Wrote', out)
 
 
@@ -94,24 +108,61 @@ def plot_calories(df):
     if df['consumed_kcal'].notna().sum() == 0 and df['target_calories'].notna().sum() == 0:
         print('No calorie data to plot')
         return
-    plt.figure(figsize=(10,4))
+    fig, ax = plt.subplots(figsize=(10,4))
     x = df['date']
     width = 0.6
-    plt.bar(x, df['consumed_kcal'], width=width, label='Consumed (kcal)', color='C2')
+    # consumed (kcal) intentionally hidden per user request
     if df['target_calories'].notna().sum() > 0:
-        plt.plot(x, df['target_calories'], marker='o', color='C0', label='Target kcal')
+        ax.plot(x, df['target_calories'], marker='o', color='C0', label='Target kcal')
     if df['actual_calories'].notna().sum() > 0:
-        plt.plot(x, df['actual_calories'], marker='x', color='C3', label='Actual (scale)')
-    plt.xlabel('Date')
-    plt.ylabel('Calories (kcal)')
-    plt.title('Calories: consumed vs target')
-    plt.legend()
-    plt.grid(axis='y', alpha=0.3)
-    plt.tight_layout()
+        ax.plot(x, df['actual_calories'], marker='x', color='C3', label='Actual (scale)')
+    ax.set_xlabel('Date')
+    ax.set_ylabel('Calories (kcal)')
+    ax.set_title('Calories: consumed vs target')
+    ax.legend()
+    ax.grid(axis='y', alpha=0.3)
+    fig.tight_layout()
     out = os.path.join(OUT_DIR, 'calories.png')
-    plt.savefig(out)
-    plt.close()
+    fig.savefig(out)
+    plt.close(fig)
     print('Wrote', out)
+
+
+def _plot_macro(df, consumed_col, target_col, actual_col, ylabel, outname):
+    # if there's no consumed and no target, skip
+    if df[consumed_col].notna().sum() == 0 and df[target_col].notna().sum() == 0 and df[actual_col].notna().sum() == 0:
+        print('No data to plot for', outname)
+        return
+    fig, ax = plt.subplots(figsize=(10,4))
+    x = df['date']
+    width = 0.6
+    ax.bar(x, df[consumed_col], width=width, label=f'Consumed ({ylabel})', color='C2')
+    if df[target_col].notna().sum() > 0:
+        ax.plot(x, df[target_col], marker='o', color='C0', label=f'Target ({ylabel})')
+    if df[actual_col].notna().sum() > 0:
+        ax.plot(x, df[actual_col], marker='x', color='C3', label='Actual (scale)')
+    ax.set_xlabel('Date')
+    ax.set_ylabel(ylabel)
+    ax.set_title(f'{ylabel}: consumed vs target')
+    ax.legend()
+    ax.grid(axis='y', alpha=0.3)
+    fig.tight_layout()
+    out = os.path.join(OUT_DIR, outname)
+    fig.savefig(out)
+    plt.close(fig)
+    print('Wrote', out)
+
+
+def plot_protein(df):
+    _plot_macro(df, 'consumed_protein_g', 'target_protein_g', 'actual_protein_g', 'Protein (g)', 'protein.png')
+
+
+def plot_fat(df):
+    _plot_macro(df, 'consumed_fat_g', 'target_fat_g', 'actual_fat_g', 'Fat (g)', 'fat.png')
+
+
+def plot_carbs(df):
+    _plot_macro(df, 'consumed_carbs_g', 'target_carbs_g', 'actual_carbs_g', 'Carbs (g)', 'carbs.png')
 
 
 def main():
@@ -125,6 +176,10 @@ def main():
     plot_weight(df)
     plot_bodyfat(df)
     plot_calories(df)
+    # macros
+    plot_protein(df)
+    plot_fat(df)
+    plot_carbs(df)
 
 
 if __name__ == '__main__':
