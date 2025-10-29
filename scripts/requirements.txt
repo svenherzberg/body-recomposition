@@ -4,3 +4,9 @@ pandas
 matplotlib
 openpyxl
 plotly
+pyyaml
+python-frontmatter
+pandas
+matplotlib
+openpyxl
+plotly
