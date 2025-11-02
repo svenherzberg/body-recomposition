@@ -1,0 +1,39 @@
+name: Export daily meals to PDF
+
+on:
+  push:
+    paths:
+      - 'protocol/**'
+      - 'logs/daily/**'
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Python deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Install pandoc and wkhtmltopdf
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc wkhtmltopdf
+
+      - name: Run export script
+        run: |
+          python3 scripts/export_meals_pdf.py --root protocol --include-logs
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: meals-pdf
+          path: outputs/
