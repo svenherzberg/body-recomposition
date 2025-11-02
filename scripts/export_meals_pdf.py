@@ -125,11 +125,12 @@ def extract_meal_sections(content: str) -> List[Tuple[str, str]]:
                 return True
         return False
     # Collect header positions from bold/ATX matches first
-    headers = []  # list of (pos, header_text)
+    # headers will be a list of tuples (start_pos, end_pos, header_text)
+    headers: List[Tuple[int, int, str]] = []
     for m in matches:
         header = (m.group('h1') or m.group('h2') or '').strip()
         if header and is_meal_header(header):
-            headers.append((m.start(), header))
+            headers.append((m.start(), m.end(), header))
 
     # Also detect plain-line headers: lines that contain the meal word and
     # otherwise only punctuation/whitespace (e.g. "Frühstück" on its own line).
@@ -147,11 +148,10 @@ def extract_meal_sections(content: str) -> List[Tuple[str, str]]:
             # check for any meal key as whole word
             for key in MEAL_KEYS:
                 if re.search(rf"\b{re.escape(key)}\b", stripped, flags=re.I):
-                    # remove the key from the line and verify the remainder is
-                    # only punctuation/whitespace (to avoid matching sentences).
                     rem = re.sub(rf"\b{re.escape(key)}\b", "", stripped, flags=re.I).strip()
                     if not rem or re.match(r'^[\W_\s]*$', rem):
-                        headers.append((off, stripped))
+                        # start is the line offset, end is offset + length of line
+                        headers.append((off, off + len(line), stripped))
                     break
 
     # sort headers by position and produce sections between them
@@ -159,26 +159,23 @@ def extract_meal_sections(content: str) -> List[Tuple[str, str]]:
     # deduplicate nearby/identical headers (same line captured twice via two
     # detection strategies). Keep the first occurrence when positions are very
     # close or normalized header text matches.
-    deduped = []
+    deduped: List[Tuple[int, int, str]] = []
     last_pos = None
     last_norm = None
-    for pos, header in headers:
+    for start_pos, end_pos, header in headers:
         norm = re.sub(r"[^0-9a-z]+", "", header.lower())
-        if last_pos is not None and abs(pos - last_pos) < 4:
+        if last_pos is not None and abs(start_pos - last_pos) < 4:
             # too close to previous header — skip
             continue
         if last_norm is not None and norm == last_norm:
             continue
-        deduped.append((pos, header))
-        last_pos = pos
+        deduped.append((start_pos, end_pos, header))
+        last_pos = start_pos
         last_norm = norm
     headers = deduped
-    for i, (pos, header) in enumerate(headers):
-        start = pos
-        # move start to the end of the header line
-        # find the first newline after pos
-        nl = content.find('\n', pos)
-        start = nl + 1 if nl != -1 else pos
+    for i, (start_pos, end_pos, header) in enumerate(headers):
+        # content starts after the header's end position
+        start = end_pos
         end = headers[i + 1][0] if i + 1 < len(headers) else len(content)
         section = content[start:end].strip()
         section = section.strip('\n')
@@ -214,15 +211,39 @@ def build_combined_md(entries: List[Tuple[str, Path, List[Tuple[str, str]]]]) ->
     parts = ["# Combined daily meals\n"]
     for date, path, sections in entries:
         # Show only the date as the daily header (do not include the file path/title).
-        # This keeps the combined document cleaner and matches the requested format.
         parts.append(f"## {date}\n")
+
         if not sections:
-            parts.append("_No recognized meal sections found._\n")
-            parts.append("\n")
+            parts.append("_No recognized meal sections found._\n\n")
             continue
+
+        # Consolidate multiple detected headers that map to the same canonical
+        # meal (e.g. '**Mittagessen**' and 'Mittagessen' or '### 🍛 Mittagessen')
+        # into a single section per meal. Preserve unmatched sections in order.
+        meals = {k: [] for k in MEAL_KEYS}
+        others: List[Tuple[str, str]] = []
+
         for header, section in sections:
+            matched = False
+            for key in MEAL_KEYS:
+                if key.lower() in header.lower():
+                    meals[key].append(section.strip())
+                    matched = True
+                    break
+            if not matched:
+                others.append((header, section.strip()))
+
+        # Output meals in preferred order, but only once per meal
+        for key in MEAL_KEYS:
+            blocks = meals.get(key)
+            if blocks:
+                parts.append(f"### {key}\n")
+                for b in blocks:
+                    parts.append(b.rstrip() + "\n\n")
+
+        # Output any unmatched sections (preserve their original header text)
+        for header, section in others:
             parts.append(f"### {header}\n")
-            # Ensure consistent spacing
             parts.append(section.rstrip() + "\n\n")
     return "\n".join(parts)
 

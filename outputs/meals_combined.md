@@ -2,15 +2,14 @@
 
 ## 2025-11-02
 
-### 🥣 Frühstück
+### Frühstück
 
 70 ml Kuhmilch (Vollmilch, 3,5 % Fett)  
 70 ml Kuhmilch (Vollmilch, 3,5 % Fett)
 
 
-### 🍛 Mittagessen
+### Mittagessen
 
-## 🍛 Mittagessen  
 210 g Erbsen mit Pariser Karotten (King’s Crown, ½ Dose)  
 150 g Kartoffelbrei (selbstgemacht)  
 400 g Rinderfilet  
@@ -18,9 +17,8 @@
 6 g Sonnenblumenöl
 
 
-### 🍽️ Abendessen
+### Abendessen
 
-## 🍽️ Abendessen  
 100 g Linsen (D’aucy)  
 5 g Leinsamenöl (Leinöl)  
 6 g Sonnenblumenöl  
@@ -28,9 +26,8 @@
 180 g Hühnerei (3 Eier, mittelgroß, roh)
 
 
-### 🍫 Snacks
+### Snacks
 
-## 🍫 Snacks  
 5 g Honig  
 40 g Himbeeren (frisch)  
 250 g Magerquark (Milsani, Aldi)  
@@ -40,7 +37,7 @@
 
 ## 2025-11-01
 
-### 🥐 Frühstück
+### Frühstück
 
 25 g Fleischsalat  
 12 g Wiener Würstchen  
@@ -50,9 +47,8 @@
 180 g Hühnerei (3 Stück, roh)
 
 
-### 🍽️ Abendessen
+### Abendessen
 
-## 🍽️ Abendessen  
 250 g Magerquark (Milsani, Aldi)  
 125 ml Rotwein (trocken, 12 Vol. %)  
 250 g Drillinge Kartoffeln (Edeka)  
@@ -65,9 +61,8 @@
 200 ml trockener Rotwein
 
 
-### 🍫 Snacks
+### Snacks
 
-## 🍫 Snacks  
 20 g Walnuss  
 75 g Granatsplitter (Bäcker)  
 70 ml Kuhmilch (Vollmilch, 3,5 % Fett)
@@ -75,7 +70,7 @@
 
 ## 2025-10-31
 
-### 🥣 **Frühstück**
+### Frühstück
 
 - 100 g Putenbrust mit Honig (Güldenhof, Aldi)  
 - 107 g Banane (ohne Schale, frisch)  
@@ -88,9 +83,8 @@
 - 80 g Heidelbeeren (Blaubeeren, frisch)
 
 
-### 🍚 **Mittagessen**
+### Mittagessen
 
-### 🍚 **Mittagessen**
 - 6 g Olivenöl  
 - 60 g Quinoa Tricolore (Rewe Bio)  
 - 900 g Butternusskürbis (frisch)  
@@ -98,9 +92,8 @@
 - 6 g Olivenöl
 
 
-### 🍳 **Abendessen**
+### Abendessen
 
-### 🍳 **Abendessen**
 - 240 g Hühnerei, roh (4 Eier, mittelgroß)  
 - 52 g Erdnüsse  
 - 6 g Olivenöl  
@@ -126,7 +119,6 @@
 
 ### Mittagessen
 
-**Mittagessen**  
 230 g Hähnchenbrustfilet (Landjunker, Lidl)  
 100 g Cherrytomaten (Cocktailtomaten, frisch)  
 200 g Champignons (Pilze, frisch)  
@@ -139,7 +131,6 @@
 
 ### Abendessen
 
-**Abendessen**  
 250 g Magerquark (Gut & Günstig, Edeka)  
 5 g Leinsamenöl (Leinöl)  
 500 g Drillinge Kartoffeln (Edeka, 5 Portionen)
@@ -147,7 +138,6 @@
 
 ### Snacks
 
-**Snacks**  
 250 g Magerquark (Milsani, Aldi)  
 20 g Cashewkerne
 
@@ -163,7 +153,6 @@
 
 ### Mittagessen
 
-**Mittagessen**  
 50 g Creme a la cuisine (Aldi, 1 Portion)  
 130 g Dinkel-Pasta Maccaroni (Landfreude, Aldi)  
 15 g Parmesan Käse  
@@ -175,7 +164,6 @@
 
 ### Abendessen
 
-**Abendessen**  
 360 ml Ajvar, mild (Clama GmbH)  
 200 g Kabeljaufilet (Followfish)  
 100 g Cherrytomaten (Cocktailtomaten, frisch)  
@@ -186,7 +174,6 @@
 
 ### Snacks
 
-**Snacks**
 20 g Cashewsp
 
 
@@ -212,7 +199,6 @@ Status
 
 ### Mittagessen
 
-**Mittagessen**  
 50 g Linsen (D’aucy)  
 62,5 g Natur-Reis (trocken, Uncle Bens, 1 Portion)  
 200 g Prinzessbohnen (Freshona, Lidl)  
@@ -222,7 +208,6 @@ Status
 
 ### Abendessen
 
-**Abendessen**  
 44 g Mini Erdnuss Schokoriegel (Ja!, Rewe, 2 Riegel)  
 56 g Mini Schokoriegel (Ja!, Rewe, 2 Stück)  
 25,5 g Peanut Schokoriegel Minis (Ja!, Rewe, 1 Riegel)  
@@ -236,7 +221,6 @@ Status
 
 ### Snacks
 
-**Snacks**  
 200 ml Apfelsaft (1 Glas)  
 250 ml Energie Drink (Rockstar Energy, ½ Dose)  
 500 g Speisequark Magerstufe 0,3 % (Milsani, Aldi, 2 Portionen)  
@@ -258,7 +242,6 @@ Status
 
 ### Mittagessen
 
-**Mittagessen**  
 6 g Olivenöl  
 125 g Lachs (gebraten)  
 200 g Prinzessbohnen (Freshona, Lidl)  
@@ -268,7 +251,6 @@ Status
 
 ### Abendessen
 
-**Abendessen**  
 50 g Linsen (D’aucy)  
 62,5 g Natur-Reis (trocken, Uncle Bens, 1 Portion)  
 6 g Sesamöl  
@@ -280,7 +262,6 @@ Status
 
 ### Snacks
 
-**Snacks**  
 80 g Himbeeren (frisch)  
 250 g Speisequark Magerstufe 0,3 % (Milsani, Aldi)
 
@@ -297,7 +278,6 @@ Status
 
 ### Mittagessen
 
-**Mittagessen**  
 100 g Prinzregententorte (1 Stück)  
 100 g Tempeh (Tempehmanufaktur)  
 150 g Pak Choi (1 Portion)  
@@ -308,14 +288,12 @@ Status
 
 ### Abendessen
 
-**Abendessen**  
 62,5 g Himbeeren (frisch)  
 250 g Magerquark (Milsani, Aldi)
 
 
 ### Snacks
 
-**Snacks**  
 150 g Käsesahnetorte (1 Stück)  
 100 g Apfelkuchen mit Mandelkruste (1 Stück)
 
@@ -332,7 +310,6 @@ Status
 
 ### Mittagessen
 
-**Mittagessen**  
 6 g Olivenöl  
 450 g Hokkaido Kürbis  
 70 g Quinoa  
@@ -341,7 +318,6 @@ Status
 
 ### Abendessen
 
-**Abendessen**  
 150 g Karotten (Möhren, frisch)  
 125 g Kokosmilch (Kokosnussmilch, Konserve)  
 6 g Olivenöl  
@@ -351,7 +327,6 @@ Status
 
 ### Snacks
 
-**Snacks**  
 200 g Prinzregententorte (2 Stück)
 50 g Doritos
 
@@ -368,7 +343,6 @@ Status
 
 ### Mittagessen
 
-**Mittagessen**  
 250 g Rinderhackfleisch (2 Portionen)  
 330 g Aubergine (frisch)  
 6 g Olivenöl  
@@ -380,7 +354,6 @@ Status
 
 ### Abendessen
 
-**Abendessen**  
 6 g Olivenöl  
 100 g Erbsen (in der Dose)  
 260 g Natur Reis (Uncle Bens, 2 Portionen)  
@@ -389,7 +362,6 @@ Status
 
 ### Snacks
 
-**Snacks**  
 30 g Cashewkerne
 
 
@@ -402,7 +374,6 @@ Status
 
 ### Mittagessen
 
-**Mittagessen**  
 1 Stück (18½ g) Korn & Schoko (Joghurt & Waldbeeren) (Aldi)  
 1 Stück (7¾ g) Lotus Biscoff  
 1 Stück (7¾ g) Lotus Biscoff  
@@ -417,7 +388,6 @@ Status
 
 ### Abendessen
 
-**Abendessen**  
 40 g Gebäck (Snäcky Knabbergebäck, 1 Portion)  
 40 g Gebäck (Snäcky Knabbergebäck, 1 Portion)  
 1 Riegel (18½ g) Cerealisto (Choceur, Aldi)  
@@ -429,7 +399,6 @@ Status
 
 ### Snacks
 
-**Snacks**  
 1 Stück (7¾ g) Lotus Biscoff  
 1 Stück (7¾ g) Lotus Biscoff  
 1 Portion (37½ g) Snackbox Knabbergebäck (Netto Marken Discount)
@@ -486,26 +455,23 @@ Erbsen&Möhren 130 g
 
 ### Mittagessen
 
-**Mittagessen**  
 1 Portion Kohlrabihühnchen
 
 
 ### Abendessen
 
-**Abendessen**  
 1 Portion Quiche
 
 
 ### Snacks
 
-**Snacks**  
 33 g Runde braune Lebkuchen (Wintertraum, Aldi)  
 33 g Runde braune Lebkuchen (Wintertraum, Aldi)
 
 
 ## 2025-10-20
 
-### 🥣 Frühstück
+### Frühstück
 
 125 g Magerquark (Milsani, Aldi)  
 29 g Haferflocken  
@@ -516,15 +482,13 @@ Erbsen&Möhren 130 g
 5 g Leinsamenöl (Leinöl)
 
 
-### 🍛 Mittagessen
+### Mittagessen
 
-**🍛 Mittagessen**  
 1 Portion Kohlrabihühnchen
 
 
-### 🍽️ Abendessen
+### Abendessen
 
-**🍽️ Abendessen**  
 1 Portion Quiche  
 
 
@@ -534,7 +498,7 @@ Erbsen&Möhren 130 g
 
 ## 2025-10-19
 
-### 🥣 Frühstück
+### Frühstück
 
 125 g Magerquark (Milsani, Aldi)  
 29 g Haferflocken  
@@ -545,9 +509,8 @@ Erbsen&Möhren 130 g
 5 g Leinsamenöl (Leinöl)
 
 
-### 🍛 Mittagessen
+### Mittagessen
 
-**🍛 Mittagessen**  
 60 g Quinoa  
 450 g Hokkaido Kürbis  
 6 g Olivenöl  
@@ -555,9 +518,8 @@ Erbsen&Möhren 130 g
 125 g Magerquark (Milsani, Aldi)
 
 
-### 🍗 Abendessen
+### Abendessen
 
-**🍗 Abendessen**  
 200 g Champignons (frisch)  
 100 g Cherrytomaten (Cocktailtomaten, frisch)  
 160 g Hühnerbrustfilet, gebraten  
@@ -566,36 +528,4 @@ Erbsen&Möhren 130 g
 15 g Parmesan Käse  
 70 g Vollkornnudeln, roh  
 50 g Kochsahne 7 % (Milfina, Aldi)
-
-
-## 2025-08-23
-
-### Frühstück
-
-25 g Haferflocken
-11 g geschrottet, te Leinsamen.
-38 g Banane, 
-100 ml Milch zu 1,5 % Fett
-Leinöl, 6 g.
-Limette
-195 g Pfirsich
-
-
-### Mittagessen
-
-6 g Sesamöl,
-80 g Zwiebel,
-130 g Kichererbsen,
-100 g Kokosmilch.
-101 g Karotte
-180 g Rosenkohl
-180 g räuchertofu
-
-
-### Abendessen
-
-170 g Hühnerbrust
-130 g Erbsen,
-80 g Zwiebel
-1 Tl Kokosfett
 
