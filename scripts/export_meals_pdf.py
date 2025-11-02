@@ -109,7 +109,11 @@ def extract_meal_sections(content: str) -> List[Tuple[str, str]]:
     """Return list of (header, section_text) in the order they appear."""
     matches = list(MEAL_RE.finditer(content))
     if not matches:
-        return []
+        # if no bold/ATX matches found, we will attempt to detect plain-line
+        # headers like "Frühstück" (a single line containing only the meal
+        # name). Continue — we'll still collect matches from the plain-line pass
+        # below.
+        matches = []
     sections = []
     # We only want headers that reference known meal keys; allow small variations
     # (emoji, bold vs heading, extra whitespace). Normalize by lowercasing and
@@ -120,18 +124,63 @@ def extract_meal_sections(content: str) -> List[Tuple[str, str]]:
             if key.lower() in s:
                 return True
         return False
-
-    for i, m in enumerate(matches):
+    # Collect header positions from bold/ATX matches first
+    headers = []  # list of (pos, header_text)
+    for m in matches:
         header = (m.group('h1') or m.group('h2') or '').strip()
-        if not header:
+        if header and is_meal_header(header):
+            headers.append((m.start(), header))
+
+    # Also detect plain-line headers: lines that contain the meal word and
+    # otherwise only punctuation/whitespace (e.g. "Frühstück" on its own line).
+    if True:
+        line_offsets = []
+        off = 0
+        for line in content.splitlines(True):
+            line_offsets.append((off, line))
+            off += len(line)
+
+        for off, line in line_offsets:
+            stripped = line.strip()
+            if not stripped:
+                continue
+            # check for any meal key as whole word
+            for key in MEAL_KEYS:
+                if re.search(rf"\b{re.escape(key)}\b", stripped, flags=re.I):
+                    # remove the key from the line and verify the remainder is
+                    # only punctuation/whitespace (to avoid matching sentences).
+                    rem = re.sub(rf"\b{re.escape(key)}\b", "", stripped, flags=re.I).strip()
+                    if not rem or re.match(r'^[\W_\s]*$', rem):
+                        headers.append((off, stripped))
+                    break
+
+    # sort headers by position and produce sections between them
+    headers = sorted(headers, key=lambda t: t[0])
+    # deduplicate nearby/identical headers (same line captured twice via two
+    # detection strategies). Keep the first occurrence when positions are very
+    # close or normalized header text matches.
+    deduped = []
+    last_pos = None
+    last_norm = None
+    for pos, header in headers:
+        norm = re.sub(r"[^0-9a-z]+", "", header.lower())
+        if last_pos is not None and abs(pos - last_pos) < 4:
+            # too close to previous header — skip
             continue
-        if not is_meal_header(header):
-            # skip non-meal headers
+        if last_norm is not None and norm == last_norm:
             continue
-        start = m.end()
-        end = matches[i + 1].start() if i + 1 < len(matches) else len(content)
+        deduped.append((pos, header))
+        last_pos = pos
+        last_norm = norm
+    headers = deduped
+    for i, (pos, header) in enumerate(headers):
+        start = pos
+        # move start to the end of the header line
+        # find the first newline after pos
+        nl = content.find('\n', pos)
+        start = nl + 1 if nl != -1 else pos
+        end = headers[i + 1][0] if i + 1 < len(headers) else len(content)
         section = content[start:end].strip()
-        # clean up leading/trailing blank lines
         section = section.strip('\n')
         sections.append((header, section))
     return sections
