@@ -35,3 +35,35 @@ jobs:
           name: body-summaries
           path: outputs/
           retention-days: 90
+
+  export_meals:
+    # Run the meal-export script in the same scheduled workflow so all
+    # generated artifacts are produced by one workflow run.
+    runs-on: ubuntu-latest
+    # Do not require the `build` job; run in parallel (or change to `needs: [build]`
+    # if you want the export to run after aggregation.
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install system packages (pandoc, wkhtmltopdf)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc wkhtmltopdf
+      - name: Install python deps
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f scripts/requirements.txt ]; then pip install -r scripts/requirements.txt; fi
+      - name: Export combined meals and weekly files
+        run: python scripts/export_meals_pdf.py --root protocol --include-logs --out-md outputs/meals_combined.md --out-pdf outputs/meals_combined.pdf
+      - name: Upload meal outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: meals-and-weekly
+          path: |
+            outputs/meals_combined.md
+            outputs/meals_combined.pdf
+            outputs/weekly_meal_protocol/
+          retention-days: 90
