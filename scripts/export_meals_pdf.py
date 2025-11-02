@@ -248,6 +248,75 @@ def build_combined_md(entries: List[Tuple[str, Path, List[Tuple[str, str]]]]) ->
     return "\n".join(parts)
 
 
+def build_day_md(date: str, sections: List[Tuple[str, str]]) -> str:
+    """Build markdown for a single day (date header + meal sections)."""
+    parts = [f"## {date}\n"]
+    if not sections:
+        parts.append("_No recognized meal sections found._\n\n")
+        return "\n".join(parts)
+
+    meals = {k: [] for k in MEAL_KEYS}
+    others: List[Tuple[str, str]] = []
+    for header, section in sections:
+        matched = False
+        for key in MEAL_KEYS:
+            if key.lower() in header.lower():
+                meals[key].append(section.strip())
+                matched = True
+                break
+        if not matched:
+            others.append((header, section.strip()))
+
+    for key in MEAL_KEYS:
+        blocks = meals.get(key)
+        if blocks:
+            parts.append(f"### {key}\n")
+            for b in blocks:
+                parts.append(b.rstrip() + "\n\n")
+
+    for header, section in others:
+        parts.append(f"### {header}\n")
+        parts.append(section.rstrip() + "\n\n")
+
+    return "\n".join(parts)
+
+
+def write_weekly_files(items: List[Tuple[str, Path, List[Tuple[str, str]]]], out_dir: Path) -> None:
+    """Write one markdown file per calendar week containing that week's days.
+
+    Filenames follow: CW_<week>_<start_iso>_<Month>_to_<end_iso>_<Month>.md
+    """
+    from collections import defaultdict
+
+    groups = defaultdict(list)
+    for date_str, path, sections in items:
+        d = parse_date_value(date_str)
+        if not d:
+            # skip entries without a parseable date
+            continue
+        year, week, _ = d.isocalendar()
+        groups[(year, week)].append((d, date_str, path, sections))
+
+    out_dir.mkdir(parents=True, exist_ok=True)
+    for (year, week), rows in sorted(groups.items()):
+        # sort rows ascending by date
+        rows_sorted = sorted(rows, key=lambda r: r[0])
+        start = rows_sorted[0][0]
+        end = rows_sorted[-1][0]
+        start_iso = start.isoformat()
+        end_iso = end.isoformat()
+        # Filename should not include month names; keep ISO dates only
+        filename = f"CW_{week}_{start_iso}_to_{end_iso}.md"
+        path_out = out_dir / filename
+        # build content: week header + days in ascending order
+        content_parts = [f"# Calendar week {week} ({start_iso} — {end_iso})\n"]
+        for d_obj, date_str, p, sections in rows_sorted:
+            content_parts.append(build_day_md(date_str, sections))
+
+        path_out.write_text("\n".join(content_parts), encoding='utf-8')
+        print(f"Wrote weekly file: {path_out}")
+
+
 def run_pandoc(md_in: Path, pdf_out: Path) -> bool:
     # Prefer to ask pandoc to create the PDF directly while avoiding LaTeX by
     # specifying a non-LaTeX pdf-engine. The most portable option here is
@@ -329,6 +398,13 @@ def main() -> int:
     combined = build_combined_md(items_sorted)
     md_out.write_text(combined, encoding="utf-8")
     print(f"Wrote combined markdown to {md_out}")
+
+    # also write weekly files (one markdown per calendar week)
+    try:
+        weekly_dir = Path(md_out.parent) / 'weekly_meal_protocol'
+        write_weekly_files(items_sorted, weekly_dir)
+    except Exception as e:
+        print('Could not write weekly files:', e)
 
     ok = run_pandoc(md_out, pdf_out)
     if ok:
