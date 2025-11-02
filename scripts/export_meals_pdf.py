@@ -27,7 +27,11 @@ import frontmatter
 
 
 MEAL_KEYS = ["Frühstück", "Mittagessen", "Abendessen", "Snacks"]
-MEAL_RE = re.compile(r"^\s*\*\*(?P<header>.*?(Frühstück|Mittagessen|Abendessen|Snacks).*?)\*\*\s*$", flags=re.I | re.M)
+# Match either a bold inline header like **🍛 Mittagessen** or an ATX heading like
+# ## 🍛 Mittagessen. Capture the inner header text as 'header'. We'll filter the
+# captured headers against MEAL_KEYS to allow flexible variants (emoji, casing,
+# surrounding punctuation).
+MEAL_RE = re.compile(r"^\s*(?:\*\*(?P<h1>.+?)\*\*|#{1,6}\s*(?P<h2>.+?))\s*$", flags=re.I | re.M)
 
 
 def find_markdown_files(root: Path, include_logs: bool = True) -> List[Path]:
@@ -75,14 +79,55 @@ def parse_date_from_meta_or_filename(post, path: Path) -> str:
     return datetime.fromtimestamp(path.stat().st_mtime).date().isoformat()
 
 
+def parse_date_value(date_str: str):
+    """Try to parse a date string into a datetime.date. Return None if parsing fails."""
+    if not date_str:
+        return None
+    # If it's already ISO-like, try fromisoformat
+    try:
+        # fromisoformat accepts YYYY-MM-DD and more
+        return datetime.fromisoformat(date_str).date()
+    except Exception:
+        pass
+    # try common formats
+    for fmt in ("%Y-%m-%d", "%Y/%m/%d", "%d.%m.%Y", "%Y-%m-%dT%H:%M:%S"):
+        try:
+            return datetime.strptime(date_str, fmt).date()
+        except Exception:
+            continue
+    # fallback: extract yyyy-mm-dd
+    m = re.search(r"(\d{4}-\d{2}-\d{2})", str(date_str))
+    if m:
+        try:
+            return datetime.strptime(m.group(1), "%Y-%m-%d").date()
+        except Exception:
+            return None
+    return None
+
+
 def extract_meal_sections(content: str) -> List[Tuple[str, str]]:
     """Return list of (header, section_text) in the order they appear."""
     matches = list(MEAL_RE.finditer(content))
     if not matches:
         return []
     sections = []
+    # We only want headers that reference known meal keys; allow small variations
+    # (emoji, bold vs heading, extra whitespace). Normalize by lowercasing and
+    # checking for the meal keyword as substring.
+    def is_meal_header(h: str) -> bool:
+        s = h.lower()
+        for key in MEAL_KEYS:
+            if key.lower() in s:
+                return True
+        return False
+
     for i, m in enumerate(matches):
-        header = m.group("header").strip()
+        header = (m.group('h1') or m.group('h2') or '').strip()
+        if not header:
+            continue
+        if not is_meal_header(header):
+            # skip non-meal headers
+            continue
         start = m.end()
         end = matches[i + 1].start() if i + 1 < len(matches) else len(content)
         section = content[start:end].strip()
@@ -119,13 +164,9 @@ def load_file(path: Path) -> Tuple[str, List[Tuple[str, str]]]:
 def build_combined_md(entries: List[Tuple[str, Path, List[Tuple[str, str]]]]) -> str:
     parts = ["# Combined daily meals\n"]
     for date, path, sections in entries:
-        # show a compact path: try to make it relative to the repo cwd, but fall back to the
-        # raw path string if that's not possible (some paths may already be relative strings)
-        try:
-            display_path = path.relative_to(Path.cwd())
-        except Exception:
-            display_path = path
-        parts.append(f"## {date} — {display_path}\n")
+        # Show only the date as the daily header (do not include the file path/title).
+        # This keeps the combined document cleaner and matches the requested format.
+        parts.append(f"## {date}\n")
         if not sections:
             parts.append("_No recognized meal sections found._\n")
             parts.append("\n")
@@ -205,8 +246,15 @@ def main() -> int:
         date, sections = load_file(f)
         items.append((date, f, sections))
 
-    # sort by ISO-like date (strings) then filename
-    items_sorted = sorted(items, key=lambda t: (t[0] or "", str(t[1])))
+    # sort by parsed date (newest first). If parsing fails, fall back to filename.
+    items_sorted = sorted(
+        items,
+        key=lambda t: (
+            parse_date_value(t[0]) or datetime.min.date(),
+            str(t[1])
+        ),
+        reverse=True,
+    )
 
     combined = build_combined_md(items_sorted)
     md_out.write_text(combined, encoding="utf-8")
