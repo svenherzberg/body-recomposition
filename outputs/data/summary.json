@@ -1,5 +1,279 @@
 [
   {
+    "file": "2025-11-01.md",
+    "date": "2025-11-01",
+    "meta": {
+      "weight": null,
+      "bmi": null,
+      "bodyfat_percentage": null,
+      "water_percentage": null,
+      "muscle_percentage": null,
+      "bones": null,
+      "target_calories": 2300.0,
+      "target_protein": 150.0,
+      "target_fat": 80.0,
+      "target_carbs": 240.0,
+      "actual_calories": 2478.0,
+      "actual_protein": 151.0,
+      "actual_fat": 130.0,
+      "actual_carbs": 129.0,
+      "abdgirth": null,
+      "sleep": 8.0,
+      "steps": 10105.0,
+      "comment": "OL"
+    },
+    "consumed": {
+      "kcal": 241.88,
+      "protein_g": 30.0,
+      "carbs_g": 10.0,
+      "fat_g": 8.25
+    }
+  },
+  {
+    "file": "2025-11-02.md",
+    "date": "2025-11-02",
+    "meta": {
+      "weight": null,
+      "bmi": null,
+      "bodyfat_percentage": null,
+      "water_percentage": null,
+      "muscle_percentage": null,
+      "bones": null,
+      "target_calories": 2300.0,
+      "target_protein": 150.0,
+      "target_fat": 80.0,
+      "target_carbs": 160.0,
+      "actual_calories": 2260.0,
+      "actual_protein": 175.0,
+      "actual_fat": 83.0,
+      "actual_carbs": 197.0,
+      "abdgirth": null,
+      "sleep": 7.0,
+      "steps": 10188.0,
+      "comment": "OL"
+    },
+    "consumed": {
+      "kcal": 322.7,
+      "protein_g": 39.9,
+      "carbs_g": 31.45,
+      "fat_g": 3.75
+    }
+  },
+  {
+    "file": "2025-11-03.md",
+    "date": "2025-11-03",
+    "meta": {
+      "weight": 71.5,
+      "bmi": 25.3,
+      "bodyfat_percentage": 25.5,
+      "water_percentage": 51.3,
+      "muscle_percentage": 39.2,
+      "bones": 2.7,
+      "target_calories": 2300.0,
+      "target_protein": 150.0,
+      "target_fat": 100.0,
+      "target_carbs": 160.0,
+      "actual_calories": 2246.0,
+      "actual_protein": 161.0,
+      "actual_fat": 99.0,
+      "actual_carbs": 169.0,
+      "abdgirth": null,
+      "sleep": 7.0,
+      "steps": 7320.0,
+      "comment": "Home"
+    },
+    "consumed": {
+      "kcal": 951.48,
+      "protein_g": 95.7,
+      "carbs_g": 65.2,
+      "fat_g": 33.74
+    }
+  },
+  {
+    "file": "2025-11-04.md",
+    "date": "2025-11-04",
+    "meta": {
+      "weight": 71.5,
+      "bmi": 25.3,
+      "bodyfat_percentage": 26.0,
+      "water_percentage": 51.0,
+      "muscle_percentage": 39.1,
+      "bones": 2.7,
+      "target_calories": 2300.0,
+      "target_protein": 150.0,
+      "target_fat": 80.0,
+      "target_carbs": 240.0,
+      "actual_calories": 2426.0,
+      "actual_protein": 158.0,
+      "actual_fat": 81.0,
+      "actual_carbs": 236.0,
+      "abdgirth": null,
+      "sleep": 6.0,
+      "steps": null,
+      "comment": "Home"
+    },
+    "consumed": {
+      "kcal": 695.88,
+      "protein_g": 48.68,
+      "carbs_g": 73.05,
+      "fat_g": 23.6
+    }
+  },
+  {
+    "file": "2025-11-05.md",
+    "date": "2025-11-05",
+    "meta": {
+      "weight": 71.0,
+      "bmi": 25.1,
+      "bodyfat_percentage": 26.3,
+      "water_percentage": 50.9,
+      "muscle_percentage": 39.0,
+      "bones": 2.7,
+      "target_calories": 2300.0,
+      "target_protein": 150.0,
+      "target_fat": 80.0,
+      "target_carbs": 240.0,
+      "actual_calories": 2442.0,
+      "actual_protein": 151.0,
+      "actual_fat": 87.0,
+      "actual_carbs": 283.0,
+      "abdgirth": 101.0,
+      "sleep": 8.0,
+      "steps": 9393.0,
+      "comment": null,
+      "training": "YM"
+    },
+    "consumed": {
+      "kcal": 605.88,
+      "protein_g": 33.68,
+      "carbs_g": 68.05,
+      "fat_g": 22.97
+    }
+  },
+  {
+    "file": "2025-11-06.md",
+    "date": "2025-11-06",
+    "meta": {
+      "weight": 71.9,
+      "bmi": 25.4,
+      "bodyfat_percentage": 24.9,
+      "water_percentage": 51.5,
+      "muscle_percentage": 39.3,
+      "bones": 2.8,
+      "target_calories": 2140.0,
+      "target_protein": 150.0,
+      "target_fat": 100.0,
+      "target_carbs": 160.0,
+      "actual_calories": 2397.0,
+      "actual_protein": 172.0,
+      "actual_fat": 93.0,
+      "actual_carbs": 207.0,
+      "abdgirth": null,
+      "sleep": 7.0,
+      "steps": 9622.0,
+      "comment": null,
+      "training": false
+    },
+    "consumed": {
+      "kcal": 895.68,
+      "protein_g": 81.6,
+      "carbs_g": 70.3,
+      "fat_g": 31.55
+    }
+  },
+  {
+    "file": "2025-11-07.md",
+    "date": "2025-11-07",
+    "meta": {
+      "weight": 72.0,
+      "bmi": 25.5,
+      "bodyfat_percentage": 23.4,
+      "water_percentage": 52.2,
+      "muscle_percentage": 39.7,
+      "bones": 2.8,
+      "target_calories": 2140.0,
+      "target_protein": 150.0,
+      "target_fat": 100.0,
+      "target_carbs": 160.0,
+      "actual_calories": 2354.0,
+      "actual_protein": 170.0,
+      "actual_fat": 103.0,
+      "actual_carbs": 166.0,
+      "abdgirth": null,
+      "sleep": 5.0,
+      "steps": 9103.0,
+      "comment": "Trainingsfrei"
+    },
+    "consumed": {
+      "kcal": 1192.62,
+      "protein_g": 94.59,
+      "carbs_g": 121.7,
+      "fat_g": 36.94
+    }
+  },
+  {
+    "file": "2025-11-08.md",
+    "date": "2025-11-08",
+    "meta": {
+      "weight": 71.4,
+      "bmi": 25.3,
+      "bodyfat_percentage": 25.2,
+      "water_percentage": 51.4,
+      "muscle_percentage": 39.3,
+      "bones": 2.8,
+      "target_calories": 2240.0,
+      "target_protein": 150.0,
+      "target_fat": 80.0,
+      "target_carbs": 230.0,
+      "actual_calories": 2337.0,
+      "actual_protein": 159.0,
+      "actual_fat": 89.0,
+      "actual_carbs": 198.0,
+      "abdgirth": null,
+      "sleep": 7.0,
+      "steps": 12810.0,
+      "comment": "Home",
+      "training": "YM"
+    },
+    "consumed": {
+      "kcal": 756.28,
+      "protein_g": 47.17,
+      "carbs_g": 98.94,
+      "fat_g": 20.68
+    }
+  },
+  {
+    "file": "2025-11-09.md",
+    "date": "2025-11-09",
+    "meta": {
+      "weight": 71.0,
+      "bmi": 25.1,
+      "bodyfat_percentage": 26.6,
+      "water_percentage": 50.8,
+      "muscle_percentage": 39.0,
+      "bones": 2.7,
+      "target_calories": 2140.0,
+      "target_protein": 150.0,
+      "target_fat": 100.0,
+      "target_carbs": 160.0,
+      "actual_calories": 2175.0,
+      "actual_protein": 158.0,
+      "actual_fat": 96.0,
+      "actual_carbs": 157.0,
+      "abdgirth": 99.0,
+      "sleep": 8.0,
+      "steps": 9605.0,
+      "comment": "Home",
+      "training": false
+    },
+    "consumed": {
+      "kcal": 736.21,
+      "protein_g": 58.13,
+      "carbs_g": 38.14,
+      "fat_g": 38.6
+    }
+  },
+  {
     "file": "2025-10-19.md",
     "date": "2025-10-19",
     "meta": {
@@ -328,6 +602,66 @@
       "protein_g": 9.0,
       "carbs_g": 20.0,
       "fat_g": 18.4
+    }
+  },
+  {
+    "file": "2025-10-30.md",
+    "date": "2025-10-30",
+    "meta": {
+      "weight": 72.1,
+      "bmi": 25.5,
+      "bodyfat_percentage": 25.3,
+      "water_percentage": 51.3,
+      "muscle_percentage": 39.2,
+      "bones": 2.8,
+      "target_calories": 2300.0,
+      "target_protein": 150.0,
+      "target_fat": 80.0,
+      "target_carbs": 240.0,
+      "actual_calories": 2364.0,
+      "actual_protein": 192.0,
+      "actual_fat": 64.0,
+      "actual_carbs": 232.0,
+      "abdgirth": null,
+      "sleep": 444,
+      "steps": 12564.0,
+      "comment": null
+    },
+    "consumed": {
+      "kcal": 998.61,
+      "protein_g": 97.15,
+      "carbs_g": 76.36,
+      "fat_g": 33.65
+    }
+  },
+  {
+    "file": "2025-10-31.md",
+    "date": "2025-10-31",
+    "meta": {
+      "weight": 71.4,
+      "bmi": 25.3,
+      "bodyfat_percentage": 23.1,
+      "water_percentage": 52.5,
+      "muscle_percentage": 39.9,
+      "bones": 2.8,
+      "target_calories": 2300.0,
+      "target_protein": 150.0,
+      "target_fat": 80.0,
+      "target_carbs": 240.0,
+      "actual_calories": 2600.0,
+      "actual_protein": 153.0,
+      "actual_fat": 93.0,
+      "actual_carbs": 251.0,
+      "abdgirth": 101.0,
+      "sleep": 333,
+      "steps": 8548.0,
+      "comment": "OL"
+    },
+    "consumed": {
+      "kcal": 823.95,
+      "protein_g": 64.55,
+      "carbs_g": 62.41,
+      "fat_g": 35.8
     }
   }
 ]

@@ -1,5 +1,515 @@
 [
   {
+    "file": "2025-11-01.md",
+    "line": "25 g Fleischsalat",
+    "name": "Fleischsalat"
+  },
+  {
+    "file": "2025-11-01.md",
+    "line": "12 g Wiener Würstchen",
+    "name": "Wiener Würstchen"
+  },
+  {
+    "file": "2025-11-01.md",
+    "line": "75 g Laugenstange",
+    "name": "Laugenstange"
+  },
+  {
+    "file": "2025-11-01.md",
+    "line": "6 g Sonnenblumenöl",
+    "name": "Sonnenblumenöl"
+  },
+  {
+    "file": "2025-11-01.md",
+    "line": "36 g roher Schinken, geräuchert",
+    "name": "roher Schinken, geräuchert"
+  },
+  {
+    "file": "2025-11-01.md",
+    "line": "180 g Hühnerei (3 Stück, roh)",
+    "name": "Hühnerei (3 Stück, roh)"
+  },
+  {
+    "file": "2025-11-01.md",
+    "line": "125 ml Rotwein (trocken, 12 Vol. %)",
+    "name": "ml Rotwein (trocken, 12 Vol. %)"
+  },
+  {
+    "file": "2025-11-01.md",
+    "line": "250 g Drillinge Kartoffeln (Edeka)",
+    "name": "Drillinge Kartoffeln (Edeka)"
+  },
+  {
+    "file": "2025-11-01.md",
+    "line": "200 g Putenschnitzel (Truthahn, natur)",
+    "name": "Putenschnitzel (Truthahn, natur)"
+  },
+  {
+    "file": "2025-11-01.md",
+    "line": "300 g griechischer Joghurt 10 % (Milbona, Lidl)",
+    "name": "griechischer Joghurt 10 % (Milbona, Lidl)"
+  },
+  {
+    "file": "2025-11-01.md",
+    "line": "6 g Sonnenblumenöl",
+    "name": "Sonnenblumenöl"
+  },
+  {
+    "file": "2025-11-01.md",
+    "line": "6 g Sonnenblumenöl",
+    "name": "Sonnenblumenöl"
+  },
+  {
+    "file": "2025-11-01.md",
+    "line": "200 ml trockener Rotwein",
+    "name": "ml trockener Rotwein"
+  },
+  {
+    "file": "2025-11-01.md",
+    "line": "20 g Walnuss",
+    "name": "Walnuss"
+  },
+  {
+    "file": "2025-11-01.md",
+    "line": "75 g Granatsplitter (Bäcker)",
+    "name": "Granatsplitter (Bäcker)"
+  },
+  {
+    "file": "2025-11-01.md",
+    "line": "70 ml Kuhmilch (Vollmilch, 3,5 % Fett)",
+    "name": "ml Kuhmilch (Vollmilch, 3,5 % Fett)"
+  },
+  {
+    "file": "2025-11-02.md",
+    "line": "70 ml Kuhmilch (Vollmilch, 3,5 % Fett)",
+    "name": "ml Kuhmilch (Vollmilch, 3,5 % Fett)"
+  },
+  {
+    "file": "2025-11-02.md",
+    "line": "70 ml Kuhmilch (Vollmilch, 3,5 % Fett)",
+    "name": "ml Kuhmilch (Vollmilch, 3,5 % Fett)"
+  },
+  {
+    "file": "2025-11-02.md",
+    "line": "210 g Erbsen mit Pariser Karotten (King’s Crown, ½ Dose)",
+    "name": "Erbsen mit Pariser Karotten (King’s Crown, ½ Dose)"
+  },
+  {
+    "file": "2025-11-02.md",
+    "line": "150 g Kartoffelbrei (selbstgemacht)",
+    "name": "Kartoffelbrei (selbstgemacht)"
+  },
+  {
+    "file": "2025-11-02.md",
+    "line": "400 g Rinderfilet",
+    "name": "Rinderfilet"
+  },
+  {
+    "file": "2025-11-02.md",
+    "line": "6 g Sonnenblumenöl",
+    "name": "Sonnenblumenöl"
+  },
+  {
+    "file": "2025-11-02.md",
+    "line": "6 g Sonnenblumenöl",
+    "name": "Sonnenblumenöl"
+  },
+  {
+    "file": "2025-11-02.md",
+    "line": "6 g Sonnenblumenöl",
+    "name": "Sonnenblumenöl"
+  },
+  {
+    "file": "2025-11-02.md",
+    "line": "125 g Naturreis (trocken, Uncle Ben’s, 2 Portionen)",
+    "name": "Naturreis (trocken, Uncle Ben’s, 2 Portionen)"
+  },
+  {
+    "file": "2025-11-02.md",
+    "line": "180 g Hühnerei (3 Eier, mittelgroß, roh)",
+    "name": "Hühnerei (3 Eier, mittelgroß, roh)"
+  },
+  {
+    "file": "2025-11-02.md",
+    "line": "40 g Himbeeren (frisch)",
+    "name": "Himbeeren (frisch)"
+  },
+  {
+    "file": "2025-11-02.md",
+    "line": "65 g Berliner Pfannkuchen (Kräppel)",
+    "name": "Berliner Pfannkuchen (Kräppel)"
+  },
+  {
+    "file": "2025-11-02.md",
+    "line": "70 ml Kuhmilch (Vollmilch, 3,5 % Fett)",
+    "name": "ml Kuhmilch (Vollmilch, 3,5 % Fett)"
+  },
+  {
+    "file": "2025-11-03.md",
+    "line": "900 g Butternusskürbis (frisch)",
+    "name": "Butternusskürbis (frisch)"
+  },
+  {
+    "file": "2025-11-03.md",
+    "line": "60 g Quinoa Tricolore (Rewe Bio)",
+    "name": "Quinoa Tricolore (Rewe Bio)"
+  },
+  {
+    "file": "2025-11-03.md",
+    "line": "185 g Räuchertofu (Rewe Bio, 1 Packung)",
+    "name": "Räuchertofu (Rewe Bio, 1 Packung)"
+  },
+  {
+    "file": "2025-11-03.md",
+    "line": "180 g Hühnerei, roh (3 Eier, mittelgroß)",
+    "name": "Hühnerei, roh (3 Eier, mittelgroß)"
+  },
+  {
+    "file": "2025-11-03.md",
+    "line": "6 g Sonnenblumenöl",
+    "name": "Sonnenblumenöl"
+  },
+  {
+    "file": "2025-11-03.md",
+    "line": "40 g Himbeeren (frisch)",
+    "name": "Himbeeren (frisch)"
+  },
+  {
+    "file": "2025-11-03.md",
+    "line": "20 g Mandeln",
+    "name": "Mandeln"
+  },
+  {
+    "file": "2025-11-04.md",
+    "line": "60 g Banane (ohne Schale, frisch)",
+    "name": "Banane (ohne Schale, frisch)"
+  },
+  {
+    "file": "2025-11-04.md",
+    "line": "10 g Mandeln",
+    "name": "Mandeln"
+  },
+  {
+    "file": "2025-11-04.md",
+    "line": "40 ml Kochsahne 7 % (Rama)",
+    "name": "ml Kochsahne 7 % (Rama)"
+  },
+  {
+    "file": "2025-11-04.md",
+    "line": "60 g Dinkelvollkornnudeln (dmBio)",
+    "name": "Dinkelvollkornnudeln (dmBio)"
+  },
+  {
+    "file": "2025-11-04.md",
+    "line": "20 g Parmesan Käse",
+    "name": "Parmesan Käse"
+  },
+  {
+    "file": "2025-11-04.md",
+    "line": "150 g Spinat (Blattspinat, frisch)",
+    "name": "Spinat (Blattspinat, frisch)"
+  },
+  {
+    "file": "2025-11-04.md",
+    "line": "200 g Champignons (frisch)",
+    "name": "Champignons (frisch)"
+  },
+  {
+    "file": "2025-11-04.md",
+    "line": "85 g Zwiebel (1 ganze, mittelgroß)",
+    "name": "Zwiebel (1 ganze, mittelgroß)"
+  },
+  {
+    "file": "2025-11-04.md",
+    "line": "160 g Hähnchenbrustfilet (Landjunker, Lidl)",
+    "name": "Hähnchenbrustfilet (Landjunker, Lidl)"
+  },
+  {
+    "file": "2025-11-04.md",
+    "line": "125 g Naturreis (trocken, Uncle Ben’s, 2 Portionen)",
+    "name": "Naturreis (trocken, Uncle Ben’s, 2 Portionen)"
+  },
+  {
+    "file": "2025-11-04.md",
+    "line": "92,5 g Räuchertofu (Rewe Bio, ½ Packung)",
+    "name": "Räuchertofu (Rewe Bio, ½ Packung)"
+  },
+  {
+    "file": "2025-11-04.md",
+    "line": "75 ml Kokosnussmilch, fettreduziert (Asia Green Garden, Aldi)",
+    "name": "ml Kokosnussmilch, fettreduziert (Asia Green Garden, Aldi)"
+  },
+  {
+    "file": "2025-11-04.md",
+    "line": "10 g Sesamöl",
+    "name": "Sesamöl"
+  },
+  {
+    "file": "2025-11-04.md",
+    "line": "200 g Karotten (frisch)",
+    "name": "Karotten (frisch)"
+  },
+  {
+    "file": "2025-11-04.md",
+    "line": "250 g Rosenkohl (gefroren)",
+    "name": "Rosenkohl (gefroren)"
+  },
+  {
+    "file": "2025-11-05.md",
+    "line": "10 g Mandeln",
+    "name": "Mandeln"
+  },
+  {
+    "file": "2025-11-05.md",
+    "line": "60 g Banane (ohne Schale, frisch)",
+    "name": "Banane (ohne Schale, frisch)"
+  },
+  {
+    "file": "2025-11-05.md",
+    "line": "160 g Hähnchenbrustfilet (Landjunker, Lidl)",
+    "name": "Hähnchenbrustfilet (Landjunker, Lidl)"
+  },
+  {
+    "file": "2025-11-05.md",
+    "line": "85 g Zwiebel (1 ganze, mittelgroß)",
+    "name": "Zwiebel (1 ganze, mittelgroß)"
+  },
+  {
+    "file": "2025-11-05.md",
+    "line": "200 g Champignons (Pilze, frisch)",
+    "name": "Champignons (Pilze, frisch)"
+  },
+  {
+    "file": "2025-11-05.md",
+    "line": "150 g Spinat (Blattspinat, frisch)",
+    "name": "Spinat (Blattspinat, frisch)"
+  },
+  {
+    "file": "2025-11-05.md",
+    "line": "20 g Parmesan Käse",
+    "name": "Parmesan Käse"
+  },
+  {
+    "file": "2025-11-05.md",
+    "line": "60 g Dinkelvollkornnudeln (dmBio)",
+    "name": "Dinkelvollkornnudeln (dmBio)"
+  },
+  {
+    "file": "2025-11-05.md",
+    "line": "40 ml Kochsahne 7 % (Rama)",
+    "name": "ml Kochsahne 7 % (Rama)"
+  },
+  {
+    "file": "2025-11-05.md",
+    "line": "250 g Rosenkohl (gefroren)",
+    "name": "Rosenkohl (gefroren)"
+  },
+  {
+    "file": "2025-11-05.md",
+    "line": "200 g Karotten (frisch)",
+    "name": "Karotten (frisch)"
+  },
+  {
+    "file": "2025-11-05.md",
+    "line": "10 g Sesamöl",
+    "name": "Sesamöl"
+  },
+  {
+    "file": "2025-11-05.md",
+    "line": "75 ml Kokosnussmilch, fettreduziert (Asia Green Garden, Aldi)",
+    "name": "ml Kokosnussmilch, fettreduziert (Asia Green Garden, Aldi)"
+  },
+  {
+    "file": "2025-11-05.md",
+    "line": "92,5 g Räuchertofu (Rewe Bio, ½ Packung)",
+    "name": "Räuchertofu (Rewe Bio, ½ Packung)"
+  },
+  {
+    "file": "2025-11-05.md",
+    "line": "125 g Naturreis (trocken, Uncle Ben’s, 2 Portionen)",
+    "name": "Naturreis (trocken, Uncle Ben’s, 2 Portionen)"
+  },
+  {
+    "file": "2025-11-05.md",
+    "line": "30 g Cashewkerne",
+    "name": "Cashewkerne"
+  },
+  {
+    "file": "2025-11-06.md",
+    "line": "10 g Mandeln",
+    "name": "Mandeln"
+  },
+  {
+    "file": "2025-11-06.md",
+    "line": "60 g Banane (ohne Schale, frisch)",
+    "name": "Banane (ohne Schale, frisch)"
+  },
+  {
+    "file": "2025-11-06.md",
+    "line": "125 g Lachs (gebraten)",
+    "name": "Lachs (gebraten)"
+  },
+  {
+    "file": "2025-11-06.md",
+    "line": "400 g Drillinge Kartoffeln (Edeka)",
+    "name": "Drillinge Kartoffeln (Edeka)"
+  },
+  {
+    "file": "2025-11-06.md",
+    "line": "37,5 g Snackbox Knabbergebäck (Netto Marken-Discount)",
+    "name": "Snackbox Knabbergebäck (Netto Marken-Discount)"
+  },
+  {
+    "file": "2025-11-06.md",
+    "line": "200 g High Protein Quarkcreme Himbeere (Beste Wahl, Rewe)",
+    "name": "High Protein Quarkcreme Himbeere (Beste Wahl, Rewe)"
+  },
+  {
+    "file": "2025-11-06.md",
+    "line": "200 g High Protein Pudding Schoko (Beste Wahl, Rewe)",
+    "name": "High Protein Pudding Schoko (Beste Wahl, Rewe)"
+  },
+  {
+    "file": "2025-11-06.md",
+    "line": "100 g Rothenburgs Schneebälle (aus Rothenburg)",
+    "name": "Rothenburgs Schneebälle (aus Rothenburg)"
+  },
+  {
+    "file": "2025-11-07.md",
+    "line": "40 g Himbeeren (frisch)",
+    "name": "Himbeeren (frisch)"
+  },
+  {
+    "file": "2025-11-07.md",
+    "line": "10 g Mandeln",
+    "name": "Mandeln"
+  },
+  {
+    "file": "2025-11-07.md",
+    "line": "60 g Banane (ohne Schale, frisch)",
+    "name": "Banane (ohne Schale, frisch)"
+  },
+  {
+    "file": "2025-11-07.md",
+    "line": "125 g Lachs (gebraten)",
+    "name": "Lachs (gebraten)"
+  },
+  {
+    "file": "2025-11-07.md",
+    "line": "185 g Räuchertofu (Rewe Bio, 1 Packung)",
+    "name": "Räuchertofu (Rewe Bio, 1 Packung)"
+  },
+  {
+    "file": "2025-11-07.md",
+    "line": "42 g Naturreis (trocken, Uncle Ben’s)",
+    "name": "Naturreis (trocken, Uncle Ben’s)"
+  },
+  {
+    "file": "2025-11-07.md",
+    "line": "375 g Wok Mix ungewürzt (Rewe, ½ Packung)",
+    "name": "Wok Mix ungewürzt (Rewe, ½ Packung)"
+  },
+  {
+    "file": "2025-11-07.md",
+    "line": "16 g Mandeln",
+    "name": "Mandeln"
+  },
+  {
+    "file": "2025-11-07.md",
+    "line": "33 g Cashewkerne",
+    "name": "Cashewkerne"
+  },
+  {
+    "file": "2025-11-08.md",
+    "line": "10 g Mandeln",
+    "name": "Mandeln"
+  },
+  {
+    "file": "2025-11-08.md",
+    "line": "50 g Banane (ohne Schale, frisch)",
+    "name": "Banane (ohne Schale, frisch)"
+  },
+  {
+    "file": "2025-11-08.md",
+    "line": "40 g Himbeeren, frisch",
+    "name": "Himbeeren, frisch"
+  },
+  {
+    "file": "2025-11-08.md",
+    "line": "6 g Sonnenblumenöl",
+    "name": "Sonnenblumenöl"
+  },
+  {
+    "file": "2025-11-08.md",
+    "line": "250 g Rinderhackfleisch (2 Portionen)",
+    "name": "Rinderhackfleisch (2 Portionen)"
+  },
+  {
+    "file": "2025-11-08.md",
+    "line": "255 g Kidneybohnen (Aldi, 1 Dose)",
+    "name": "Kidneybohnen (Aldi, 1 Dose)"
+  },
+  {
+    "file": "2025-11-08.md",
+    "line": "375 g Wok Mix ungewürzt (Rewe, ½ Packung)",
+    "name": "Wok Mix ungewürzt (Rewe, ½ Packung)"
+  },
+  {
+    "file": "2025-11-08.md",
+    "line": "84 g Naturreis, trocken (Uncle Ben’s)",
+    "name": "Naturreis, trocken (Uncle Ben’s)"
+  },
+  {
+    "file": "2025-11-08.md",
+    "line": "185 g Räuchertofu (Rewe Bio, 1 Packung)",
+    "name": "Räuchertofu (Rewe Bio, 1 Packung)"
+  },
+  {
+    "file": "2025-11-09.md",
+    "line": "10 g Mandeln",
+    "name": "Mandeln"
+  },
+  {
+    "file": "2025-11-09.md",
+    "line": "40 g Himbeeren (frisch)",
+    "name": "Himbeeren (frisch)"
+  },
+  {
+    "file": "2025-11-09.md",
+    "line": "40 g Quinoa",
+    "name": "Quinoa"
+  },
+  {
+    "file": "2025-11-09.md",
+    "line": "130 g Kidneybohnen (Rote Bohnen, Konserve)",
+    "name": "Kidneybohnen (Rote Bohnen, Konserve)"
+  },
+  {
+    "file": "2025-11-09.md",
+    "line": "670 g Hokkaido-Kürbis",
+    "name": "Hokkaido-Kürbis"
+  },
+  {
+    "file": "2025-11-09.md",
+    "line": "6 g Sonnenblumenöl",
+    "name": "Sonnenblumenöl"
+  },
+  {
+    "file": "2025-11-09.md",
+    "line": "100 g Kabeljau (Dorsch, gegart)",
+    "name": "Kabeljau (Dorsch, gegart)"
+  },
+  {
+    "file": "2025-11-09.md",
+    "line": "180 g Hühnerei, roh (3 Eier, mittelgroß)",
+    "name": "Hühnerei, roh (3 Eier, mittelgroß)"
+  },
+  {
+    "file": "2025-11-09.md",
+    "line": "125 g Lachs, gebraten",
+    "name": "Lachs, gebraten"
+  },
+  {
     "file": "2025-10-19.md",
     "line": "72 g Banane (ohne Schale, frisch)",
     "name": "Banane (ohne Schale, frisch)"
@@ -593,5 +1103,90 @@
     "file": "2025-10-29.md",
     "line": "20 g Cashewsp",
     "name": "Cashewsp"
+  },
+  {
+    "file": "2025-10-30.md",
+    "line": "230 g Hähnchenbrustfilet (Landjunker, Lidl)",
+    "name": "Hähnchenbrustfilet (Landjunker, Lidl)"
+  },
+  {
+    "file": "2025-10-30.md",
+    "line": "100 g Cherrytomaten (Cocktailtomaten, frisch)",
+    "name": "Cherrytomaten (Cocktailtomaten, frisch)"
+  },
+  {
+    "file": "2025-10-30.md",
+    "line": "200 g Champignons (Pilze, frisch)",
+    "name": "Champignons (Pilze, frisch)"
+  },
+  {
+    "file": "2025-10-30.md",
+    "line": "15 g Parmesan Käse",
+    "name": "Parmesan Käse"
+  },
+  {
+    "file": "2025-10-30.md",
+    "line": "130 g Dinkel-Pasta Maccaroni (Landfreude, Aldi)",
+    "name": "Dinkel-Pasta Maccaroni (Landfreude, Aldi)"
+  },
+  {
+    "file": "2025-10-30.md",
+    "line": "50 g Creme a la cuisine (Aldi, 1 Portion)",
+    "name": "Creme a la cuisine (Aldi, 1 Portion)"
+  },
+  {
+    "file": "2025-10-30.md",
+    "line": "500 g Drillinge Kartoffeln (Edeka, 5 Portionen)",
+    "name": "Drillinge Kartoffeln (Edeka, 5 Portionen)"
+  },
+  {
+    "file": "2025-10-30.md",
+    "line": "20 g Cashewkerne",
+    "name": "Cashewkerne"
+  },
+  {
+    "file": "2025-10-31.md",
+    "line": "- 100 g Putenbrust mit Honig (Güldenhof, Aldi)",
+    "name": "Putenbrust mit Honig (Güldenhof, Aldi)"
+  },
+  {
+    "file": "2025-10-31.md",
+    "line": "- 107 g Banane (ohne Schale, frisch)",
+    "name": "Banane (ohne Schale, frisch)"
+  },
+  {
+    "file": "2025-10-31.md",
+    "line": "- 60 g Quinoa Tricolore (Rewe Bio)",
+    "name": "Quinoa Tricolore (Rewe Bio)"
+  },
+  {
+    "file": "2025-10-31.md",
+    "line": "- 900 g Butternusskürbis (frisch)",
+    "name": "Butternusskürbis (frisch)"
+  },
+  {
+    "file": "2025-10-31.md",
+    "line": "- 240 g Hühnerei, roh (4 Eier, mittelgroß)",
+    "name": "Hühnerei, roh (4 Eier, mittelgroß)"
+  },
+  {
+    "file": "2025-10-31.md",
+    "line": "- 52 g Erdnüsse",
+    "name": "Erdnüsse"
+  },
+  {
+    "file": "2025-10-31.md",
+    "line": "- 130 g Naturreis (Uncle Ben’s, 1 Packung)",
+    "name": "Naturreis (Uncle Ben’s, 1 Packung)"
+  },
+  {
+    "file": "2025-10-31.md",
+    "line": "100 ml Sekt",
+    "name": "ml Sekt"
+  },
+  {
+    "file": "2025-10-31.md",
+    "line": "60 ml Aperol",
+    "name": "ml Aperol"
   }
 ]

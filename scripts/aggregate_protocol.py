@@ -192,22 +192,37 @@ def gather_protocol_metas():
 
 
 def write_markdown_table(rows, keys, outpath):
-    # header: use keys (include date) but do not include filename
+    # header: produce a monospaced, human-readable aligned table inside a code
+    # block so the columns are easier to read as text (indented/aligned).
     header_cols = keys
+    # compute column widths
+    col_widths = {k: len(k) for k in header_cols}
+    for rel, meta in rows:
+        for k in header_cols:
+            v = meta.get(k, '')
+            s = str(v)
+            if len(s) > col_widths[k]:
+                col_widths[k] = len(s)
+
     with open(outpath, 'w', encoding='utf-8') as f:
         f.write('# Protocol headers summary\n\n')
         f.write('Generated from `protocol/` files. Columns are the union of header keys found.\n\n')
+        # start a code block so text remains monospaced and aligned
+        f.write('```text\n')
         # header row
-        f.write('| ' + ' | '.join(header_cols) + ' |\n')
-        f.write('| ' + ' | '.join(['---'] * len(header_cols)) + ' |\n')
+        header_line = '  '.join(k.ljust(col_widths[k]) for k in header_cols)
+        f.write(header_line + '\n')
+        # separator line
+        sep_line = '  '.join('-' * col_widths[k] for k in header_cols)
+        f.write(sep_line + '\n')
         for rel, meta in rows:
             vals = []
-            for k in keys:
+            for k in header_cols:
                 v = meta.get(k, '')
-                # escape pipes
-                v = str(v).replace('|', '\\|')
-                vals.append(v)
-            f.write('| ' + ' | '.join(vals) + ' |\n')
+                s = str(v)
+                vals.append(s.ljust(col_widths[k]))
+            f.write('  '.join(vals) + '\n')
+        f.write('```\n')
 
 
 def write_excel(rows, keys, outpath):

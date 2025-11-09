@@ -20,6 +20,7 @@ from collections import defaultdict
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 DATA_DIR = os.path.join(ROOT, 'data')
+PROTOCOL_DIR = os.path.join(ROOT, 'protocol')
 LOG_DIR = os.path.join(ROOT, 'logs', 'daily')
 OUT_DIR = os.path.join(ROOT, 'outputs', 'data')
 os.makedirs(OUT_DIR, exist_ok=True)
@@ -238,9 +239,10 @@ def main():
     foods, slug_by_alias, aliases_list = load_foods(os.path.join(DATA_DIR, 'foods.yaml'))
     summary = []
     all_missing = []
-    files = sorted(glob(os.path.join(LOG_DIR, '*.md')))
+    # read all markdown files under protocol/ recursively
+    files = sorted(glob(os.path.join(PROTOCOL_DIR, '**', '*.md'), recursive=True))
     if not files:
-        print('No log files found in', LOG_DIR)
+        print('No protocol files found in', PROTOCOL_DIR)
     for path in files:
         res, missing = process_file(path, foods, slug_by_alias, aliases_list)
         summary.append(res)
