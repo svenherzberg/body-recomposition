@@ -22,6 +22,12 @@ echo "[update_all] Running export_meals_pdf.py -> outputs/meals_combined.md & we
 echo "[update_all] Running plot_metrics.py -> outputs/graphs/*.png"
 "$PYTHON" "$ROOT/scripts/plot_metrics.py"
 
+echo "[update_all] Running compute_plot_tdee.py -> outputs/data/tdee.json & outputs/graphs/tdee.png"
+"$PYTHON" "$ROOT/scripts/compute_plot_tdee.py"
+
+echo "[update_all] Writing TDEE markdown summary -> outputs/tdee_summary.md"
+"$PYTHON" "$ROOT/scripts/write_tdee_summary.py"
+
 echo "[update_all] Done. Outputs are in $ROOT/outputs/"
 
 exit 0
