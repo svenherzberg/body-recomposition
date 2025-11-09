@@ -216,9 +216,7 @@
 20 g Sojaflocken (dmBio)  
 130 ml This is Not Milk 1,8 % (Alpro)  
 10 g Leinsamenöl (Leinöl)  
-40 g Heidelbeeren (Blaubeeren, frisch)  
-
----
+40 g Heidelbeeren (Blaubeeren, frisch)
 
 
 ### Mittagessen
@@ -227,9 +225,7 @@
 250 g Magerquark (Milsani, Aldi)  
 900 g Butternusskürbis (frisch)  
 60 g Quinoa Tricolore (Rewe Bio)  
-6 g Olivenöl  
-
----
+6 g Olivenöl
 
 
 ### Abendessen
@@ -237,9 +233,7 @@
 185 g Räuchertofu (Rewe Bio, 1 Packung)  
 180 g Hühnerei, roh (3 Eier, mittelgroß)  
 6 g Sonnenblumenöl  
-5 g Leinsamenöl (Leinöl)  
-
----
+5 g Leinsamenöl (Leinöl)
 
 
 ### Snacks
@@ -680,11 +674,10 @@ Eiweiß: 27,1 g
 15 g Leinsamen
 6 g Leinöl
 49 g Banane
-74 Himbeeren
+74 Himbeeren 
 
 
-### Snacks
-
+Abendessen 2
 Thunfisch 140 g
 Kidneybohnen 130 g
 Erbsen&Möhren 130 g

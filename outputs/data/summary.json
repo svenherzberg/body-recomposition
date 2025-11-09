@@ -20,7 +20,8 @@
       "abdgirth": null,
       "sleep": 8.0,
       "steps": 10105.0,
-      "comment": "OL"
+      "comment": "OL",
+      "training": null
     },
     "consumed": {
       "kcal": 241.88,
@@ -50,7 +51,8 @@
       "abdgirth": null,
       "sleep": 7.0,
       "steps": 10188.0,
-      "comment": "OL"
+      "comment": "OL",
+      "training": null
     },
     "consumed": {
       "kcal": 322.7,
@@ -80,7 +82,8 @@
       "abdgirth": null,
       "sleep": 7.0,
       "steps": 7320.0,
-      "comment": "Home"
+      "comment": "Home",
+      "training": null
     },
     "consumed": {
       "kcal": 951.48,
@@ -109,8 +112,9 @@
       "actual_carbs": 236.0,
       "abdgirth": null,
       "sleep": 6.0,
-      "steps": null,
-      "comment": "Home"
+      "steps": 9684.0,
+      "comment": "Home",
+      "training": null
     },
     "consumed": {
       "kcal": 695.88,
@@ -140,7 +144,7 @@
       "abdgirth": 101.0,
       "sleep": 8.0,
       "steps": 9393.0,
-      "comment": null,
+      "comment": "Home",
       "training": "YM"
     },
     "consumed": {
@@ -171,8 +175,8 @@
       "abdgirth": null,
       "sleep": 7.0,
       "steps": 9622.0,
-      "comment": null,
-      "training": false
+      "comment": "Home & A",
+      "training": null
     },
     "consumed": {
       "kcal": 895.68,
@@ -202,7 +206,8 @@
       "abdgirth": null,
       "sleep": 5.0,
       "steps": 9103.0,
-      "comment": "Trainingsfrei"
+      "comment": "Home",
+      "training": null
     },
     "consumed": {
       "kcal": 1192.62,
@@ -264,7 +269,7 @@
       "sleep": 8.0,
       "steps": 9605.0,
       "comment": "Home",
-      "training": false
+      "training": null
     },
     "consumed": {
       "kcal": 736.21,
@@ -292,9 +297,10 @@
       "actual_fat": 51.0,
       "actual_carbs": 214.0,
       "abdgirth": null,
-      "sleep": null,
-      "steps": null,
-      "comment": null
+      "sleep": 8.0,
+      "steps": 10502.0,
+      "comment": "Home",
+      "training": null
     },
     "consumed": {
       "kcal": 603.27,
@@ -322,9 +328,10 @@
       "actual_fat": 101.0,
       "actual_carbs": 107.0,
       "abdgirth": null,
-      "sleep": null,
-      "steps": null,
-      "comment": null
+      "sleep": 6.0,
+      "steps": 10170.0,
+      "comment": "Home",
+      "training": null
     },
     "consumed": {
       "kcal": 460.23,
@@ -352,9 +359,10 @@
       "actual_fat": 88.0,
       "actual_carbs": 153.0,
       "abdgirth": null,
-      "sleep": null,
-      "steps": null,
-      "comment": null
+      "sleep": 7.0,
+      "steps": 9329.0,
+      "comment": "Home",
+      "training": null
     },
     "consumed": {
       "kcal": 460.23,
@@ -382,9 +390,10 @@
       "actual_fat": 84.0,
       "actual_carbs": 154.0,
       "abdgirth": null,
-      "sleep": null,
-      "steps": null,
-      "comment": null
+      "sleep": 6.0,
+      "steps": 10639.0,
+      "comment": "Home",
+      "training": null
     },
     "consumed": {
       "kcal": 545.38,
@@ -412,9 +421,10 @@
       "actual_fat": 131.0,
       "actual_carbs": 214.0,
       "abdgirth": null,
-      "sleep": null,
-      "steps": null,
-      "comment": null
+      "sleep": 5.0,
+      "steps": 9875.0,
+      "comment": "Home",
+      "training": null
     },
     "consumed": {
       "kcal": 175.6,
@@ -442,9 +452,10 @@
       "actual_fat": 84.0,
       "actual_carbs": 156.0,
       "abdgirth": null,
-      "sleep": null,
-      "steps": null,
-      "comment": null
+      "sleep": 4.0,
+      "steps": 9930.0,
+      "comment": "Home",
+      "training": null
     },
     "consumed": {
       "kcal": 228.64,
@@ -472,9 +483,10 @@
       "actual_fat": 106.0,
       "actual_carbs": 224.0,
       "abdgirth": null,
-      "sleep": null,
-      "steps": null,
-      "comment": null
+      "sleep": 7.0,
+      "steps": 7258.0,
+      "comment": "Wü",
+      "training": null
     },
     "consumed": {
       "kcal": 287.52,
@@ -502,9 +514,10 @@
       "actual_fat": 107.0,
       "actual_carbs": 187.0,
       "abdgirth": null,
-      "sleep": null,
-      "steps": null,
-      "comment": null
+      "sleep": 7.0,
+      "steps": 11970.0,
+      "comment": "Wü",
+      "training": null
     },
     "consumed": {
       "kcal": 324.48,
@@ -533,8 +546,9 @@
       "actual_carbs": 184.0,
       "abdgirth": 101.0,
       "sleep": 7.0,
-      "steps": null,
-      "comment": "Home"
+      "steps": 11803.0,
+      "comment": "Home",
+      "training": null
     },
     "consumed": {
       "kcal": 895.02,
@@ -562,9 +576,10 @@
       "actual_fat": 84,
       "actual_carbs": 184,
       "abdgirth": 102.0,
-      "sleep": 438,
-      "steps": null,
-      "comment": null
+      "sleep": 7.0,
+      "steps": 6779.0,
+      "comment": "Home",
+      "training": null
     },
     "consumed": {
       "kcal": 834.17,
@@ -592,9 +607,10 @@
       "actual_fat": 81.0,
       "actual_carbs": 223.0,
       "abdgirth": null,
-      "sleep": 326,
+      "sleep": 5.0,
       "steps": 6342.0,
-      "comment": null,
+      "comment": "Home",
+      "training": null,
       "status": "- Bizeps leichten Muskelkater, - Trizeps Sehr leichten Muskelkater - Oberschenkel, Vorder und Rückseite mittlerer Mus..."
     },
     "consumed": {
@@ -623,9 +639,10 @@
       "actual_fat": 64.0,
       "actual_carbs": 232.0,
       "abdgirth": null,
-      "sleep": 444,
+      "sleep": 7.0,
       "steps": 12564.0,
-      "comment": null
+      "comment": "Home",
+      "training": null
     },
     "consumed": {
       "kcal": 998.61,
@@ -653,9 +670,10 @@
       "actual_fat": 93.0,
       "actual_carbs": 251.0,
       "abdgirth": 101.0,
-      "sleep": 333,
+      "sleep": 5.0,
       "steps": 8548.0,
-      "comment": "OL"
+      "comment": "OL",
+      "training": null
     },
     "consumed": {
       "kcal": 823.95,
