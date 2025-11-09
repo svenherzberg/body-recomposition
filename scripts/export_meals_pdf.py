@@ -315,6 +315,18 @@ def write_weekly_files(items: List[Tuple[str, Path, List[Tuple[str, str]]]], out
 
         path_out.write_text("\n".join(content_parts), encoding='utf-8')
         print(f"Wrote weekly file: {path_out}")
+        # Attempt to also produce a PDF next to the markdown file. The
+        # run_pandoc function will detect whether pandoc/wkhtmltopdf are
+        # available and skip gracefully if not.
+        try:
+            pdf_out = path_out.with_suffix('.pdf')
+            ok = run_pandoc(path_out, pdf_out)
+            if ok:
+                print(f"Wrote weekly PDF: {pdf_out}")
+        except Exception as e:
+            # Do not fail the whole process if PDF generation for a single
+            # week fails; log and continue.
+            print(f"Error creating PDF for {path_out}: {e}")
 
 
 def run_pandoc(md_in: Path, pdf_out: Path) -> bool:

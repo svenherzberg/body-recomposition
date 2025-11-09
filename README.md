@@ -49,7 +49,6 @@ Weiteres
 - Wenn du möchtest, kann der Workflow geändert werden, um Grafiken zu committen, in GitHub Pages zu veröffentlichen oder ein Release zu erstellen. Das kann Commit‑Loops erzeugen — ich empfehle zuerst Artefakte.
 
 Wenn du konkrete Feld‑Namen bevorzugst (z. B. `weight_kg` genau so), sag Bescheid — ich kann Validierung/Schema‑Checks hinzufügen.
-
 Exporting daily meals
 ---------------------
 
@@ -64,6 +63,57 @@ A GitHub Action workflow `.github/workflows/export_meals_pdf.yml` is included an
 will create `outputs/meals_combined.md` and (if pandoc + wkhtmltopdf are installed)
 `outputs/meals_combined.pdf` and upload them as workflow artifacts.
 
+Ein-Kommando (alles erzeugen)
+------------------------------
+
+Wenn du alle Artefakte auf einmal lokal oder in einem Codespace erzeugen willst,
+verwende das mitgelieferte Wrapper-Skript `scripts/update_all.sh`. Es führt die
+Einzelschritte in der richtigen Reihenfolge aus und generiert:
+
+- `outputs/protocol_summary.md` und `outputs/protocol_summary.xlsx`
+- `outputs/data/summary.json` und `outputs/data/missing_foods.json`
+- `outputs/meals_combined.md` und (falls `pandoc` + `wkhtmltopdf` installiert sind)
+	`outputs/meals_combined.pdf`
+- `outputs/weekly_meal_protocol/CW_*.md` und (falls Tools vorhanden) `CW_*.pdf`
+- `outputs/graphs/*.png`
+
+Beispiel:
+
+```bash
+chmod +x scripts/update_all.sh
+./scripts/update_all.sh
+```
+
+Hinweis: In Codespaces/Devcontainers ist `pandoc` + `wkhtmltopdf` normalerweise
+vorinstalliert (siehe `.devcontainer`), sodass PDFs erzeugt werden. Falls die
+Tools nicht verfügbar sind, überspringt das Skript die PDF-Erzeugung und schreibt
+nur die Markdown‑Artefakte.
+
+Hinweis zu `--include-logs`
+--------------------------
+
+Das Skript `export_meals_pdf.py` unterstützt die Option `--include-logs`, die
+zusätzlich zu den Dateien unter `--root` noch Markdown-Dateien aus dem Ordner
+`logs/daily/` (relativ zum Parent von `--root`) einliest. Praktische Punkte:
+
+- Pfad: Wenn du `--root protocol` übergibst, sucht das Skript außerdem in
+	`protocol/../logs/daily/` (also `logs/daily/` neben `protocol/`).
+- Deduplizierung: Gefundene Dateipfade werden vor dem Verarbeiten dedupliziert
+	(nach aufgelöstem Pfad). Wenn die gleichen Inhalte also sowohl in `protocol/`
+	als auch in `logs/daily/` liegen, werden doppelte Pfade nicht doppelt ausgegeben.
+- Warum nutzen: Verwende `--include-logs`, wenn du ältere Einträge oder eine
+	getrennte Log‑Historie in `logs/daily/` hast und beide Quellen in der Ausgabe
+	zusammengeführt werden sollen.
+- Vorsicht: `scripts/update_all.sh` ruft das Wrapper-Skript standardmäßig ohne
+	`--include-logs` auf. Falls du beim zentralen One‑liner auch die Logs mit
+	einbeziehen willst, rufe `export_meals_pdf.py` manuell mit `--include-logs`
+	oder passe `scripts/update_all.sh` an.
+
+Beispiel (inkl. Logs):
+
+```bash
+python3 scripts/export_meals_pdf.py --root protocol --include-logs --out-md outputs/meals_combined.md --out-pdf outputs/meals_combined.pdf
+```
 ```
 # body-recomposition — Logs, Parser & Summaries
 
