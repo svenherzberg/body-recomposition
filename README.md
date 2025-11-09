@@ -76,6 +76,7 @@ Einzelschritte in der richtigen Reihenfolge aus und generiert:
 	`outputs/meals_combined.pdf`
 - `outputs/weekly_meal_protocol/CW_*.md` und (falls Tools vorhanden) `CW_*.pdf`
 - `outputs/graphs/*.png`
+ - `outputs/data/tdee.json`, `outputs/graphs/tdee.png` und `outputs/tdee_summary.md` (geschätzte TDEE‑Werte, Plot und kurze Zusammenfassung)
 
 Beispiel:
 
