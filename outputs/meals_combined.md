@@ -247,11 +247,7 @@
 40 g Himbeeren (frisch)  
 5 g Leinsamenöl (Leinöl)  
 250 g Magerquark (Milsani, Aldi)  
-20 g Mandeln  
-
----
-
-Möchtest du, dass ich dir die **Gesamtmakros (Kalorien, Eiweiß, Fett, Kohlenhydrate)** für diesen Tag berechne?
+20 g Mandeln
 
 
 ## 2025-11-02
