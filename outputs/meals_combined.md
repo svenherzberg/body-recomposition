@@ -1,5 +1,481 @@
 # Combined daily meals
 
+## 2026-01-19
+
+### Frühstück
+
+Banane 80 g
+Leinsamenöl 20 g
+Magerquark (Milsani Aldi) 250 g
+Vollmilch 3,5 % 150 ml
+Haferflocken 80 g
+Himbeeren frisch 180 g
+Leinsamen geschrotet 17 g
+
+
+### Mittagessen
+
+Maishähnchenbrust & Ofenkartoffeln 1 Portion
+
+
+### Abendessen
+
+Olivenöl 10 g
+Tomaten passiert (Aldi) 200 g
+Tofu 175 g
+Vollkornnudeln roh 120 g
+
+
+### Snacks
+
+Nudelsalat 150 g
+Räuchertofu 175 g
+Tomaten passiert (Aldi) 200 g
+
+
+## 2026-01-18
+
+### Frühstück
+
+Haferflocken 80 g
+Vollmilch 3,5 % 150 ml
+Leinsamenöl 10 g
+Himbeeren frisch 180 g
+Leinsamen geschrotet 17 g
+Magerquark (Milsani Aldi) 250 g
+
+
+### Mittagessen
+
+Feta g.U. (Edeka Bio) 200 g
+Vollkornnudeln roh 75 g
+Tomaten gehackt (Konserve) 200 g
+Olivenöl 7 g
+Zwiebel frisch 1 Stück (85 g)
+
+
+### Abendessen
+
+Quinoa 100 g
+Olivenöl 7 g
+Skyr Natur 150 g
+Tahin (Rapunzel) 40 g
+Natur-Reis trocken (Uncle Ben’s) 62 g
+
+
+## 2026-01-17
+
+### Frühstück
+
+Haferflocken 80 g
+Vollmilch 3,5 % 150 ml
+Leinsamenöl 10 g
+Himbeeren frisch 180 g
+Leinsamen geschrotet 17 g
+Magerquark (Milsani Aldi) 250 g
+
+
+### Mittagessen
+
+Zwiebel frisch 1 Stück (85 g)
+Olivenöl 7 g
+Tomaten gehackt (Konserve) 200 g
+Vollkornnudeln roh 75 g
+
+
+### Abendessen
+
+Natur-Reis trocken (Uncle Ben’s) 62 g
+Tahin (Rapunzel) 40 g
+Skyr Natur 150 g
+Olivenöl 7 g
+Quinoa 100 g
+Halloumi (Grillkäse) 225 g
+
+
+### Snacks
+
+Bio Joghurt mild 3,8 % 400 ml
+
+
+## 2026-01-16
+
+### Frühstück
+
+Haferflocken 80 g
+Vollmilch 3,5 % 150 ml
+Leinsamenöl 10 g
+Himbeeren frisch 180 g
+Leinsamen geschrotet 17 g
+Magerquark (Milsani Aldi) 250 g
+
+
+### Mittagessen
+
+Olivenöl 10 g
+Linsen (Daucy) 100 g
+Natur Reis (Uncle Ben’s) 2 Portionen (126 g)
+Kidneybohnen (rote Bohnen, Konserve) 250 g
+Rinderhackfleisch 250 g
+
+
+### Abendessen
+
+Quinoa Pops (Gut Bio Aldi) 20 g
+Apfel mit Schale 140 g
+Bio Joghurt mild 3,8 % 400 ml
+
+
+### Snacks
+
+Pekannuss 30 g
+
+
+## 2026-01-15
+
+### Frühstück
+
+Haferflocken 80 g
+Vollmilch 3,5 % 150 ml
+Leinsamenöl 10 g
+Himbeeren frisch 180 g
+Leinsamen geschrotet 17 g
+Magerquark (Milsani Aldi) 250 g
+
+
+### Mittagessen
+
+Schokoladenpudding mit Schlagsahne 1 Portion
+Hähnchen mit braunem Reis, Paprika, Sauce 1 Portion
+
+
+### Abendessen
+
+Hühnerbrust roh 250 g
+Natur Reis (Uncle Ben’s) 2 Portionen (126 g)
+
+
+### Snacks
+
+Erdnuss Mix Beer Style 120 g
+Weißbier alkoholfrei 2 Flaschen (2 × 500 ml)
+
+
+## 2026-01-14
+
+### Frühstück
+
+Magerquark (Milsani Aldi) 250 g
+Haferflocken 100 g
+Vollmilch 3,5 % 150 ml
+Leinsamenöl 10 g
+Himbeeren frisch 180 g
+Leinsamen geschrotet 17 g
+Banane 80 g
+
+
+### Mittagessen
+
+Olivenöl 16 g
+Hühnerbrustfilet gebraten 125 g
+Kichererbsen (Kings Crown Aldi) 212 g
+Süßkartoffeln frisch 397 g
+
+
+### Abendessen
+
+Linsen (Daucy) 100 g
+Olivenöl 20 g
+Cashewkerne 30 g
+Natur Reis (Uncle Ben’s) 2 Portionen (126 g)
+Hühnerbrust roh 125 g
+
+
+## 2026-01-13
+
+### Frühstück
+
+Bio Joghurt mild 3,8 % 400 ml
+Banane 100 g
+Leinsamen geschrotet 17 g
+Himbeeren frisch 180 g
+Leinsamenöl 20 g
+Vollmilch 3,5 % 200 ml
+Haferflocken 100 g
+
+
+### Mittagessen
+
+Leinsamenöl 5 g
+Magerquark (Milsani Aldi) 250 g
+Drillinge Kartoffeln 335 g
+
+
+### Abendessen
+
+Gegrillter Hähnchenbrust-Burger mit Toppings 1 Portion
+
+
+### Snacks
+
+Pekannuss 25 g
+
+
+## 2026-01-12
+
+### Frühstück
+
+Haferflocken 80 g
+Banane 90 g
+Magerquark (Milsani Aldi) 250 g
+Vollmilch 3,5 % 180 ml
+Leinsamenöl 20 g
+Himbeeren frisch 180 g
+
+
+### Mittagessen
+
+Olivenöl 20 g
+Magerquark (Milsani Aldi) 250 g
+Lachs gebraten 125 g
+Drillinge Kartoffeln 500 g
+
+
+### Abendessen
+
+Joghurtsauce 100 g
+Hühnerbrustfilet gebraten 350 g
+Natur Reis (Uncle Ben’s) 2 Portionen (126 g)
+
+
+### Snacks
+
+Parmesan Käse 50 g
+
+
+## 2026-01-11
+
+### Frühstück
+
+Haferflocken 80 g
+Banane 90 g
+Magerquark (Milsani Aldi) 250 g
+Vollmilch 3,5 % 180 ml
+Leinsamenöl 20 g
+Himbeeren frisch 180 g
+
+
+### Mittagessen
+
+Hühnerei roh 3 Stück (180 g)
+Parmesan Käse 20 g
+Ajvar (Paprika Paste) 100 g
+Sonnenblumenöl 6 g
+
+
+### Abendessen
+
+Kidneybohnen (rote Bohnen, Konserve) 125 g
+Ofenkürbis 1 Portion
+
+
+### Snacks
+
+Terrassenplätzchen selbstgemacht 6 Stück (72 g)
+Kokosmakronen selbstgemacht 6 Stück (60 g)
+
+
+## 2026-01-10
+
+### Frühstück
+
+Himbeeren frisch 180 g
+Haferflocken 80 g
+Banane 90 g
+Magerquark (Milsani Aldi) 250 g
+Vollmilch 3,5 % 180 ml
+Leinsamenöl 20 g
+
+
+### Mittagessen
+
+Sonnenblumenöl 6 g
+Ajvar (Paprika Paste) 100 g
+Parmesan Käse 20 g
+Hühnerei roh 3 Stück (180 g)
+
+
+### Abendessen
+
+Birne 1 Stück (140 g)
+Shakshuka 1 Portion
+Skyr Natur 200 g
+Heidelbeeren 80 g
+Bio Joghurt mild 3,8 % 400 ml
+
+
+### Snacks
+
+Drillinge Kartoffeln 100 g
+Pekannuss 30 g
+
+
+## 2026-01-09
+
+### Frühstück
+
+Haferflocken 80 g
+Banane 100 g
+Magerquark (Milsani Aldi) 250 g
+Vollmilch 3,5 % 150 ml
+Leinsamenöl 10 g
+Apfel mit Schale 140 g
+Mandarine 1 Stück (76 g)
+
+
+### Abendessen
+
+DIV 1 Portion
+
+
+### Snacks
+
+Mandeln gehobelt 25 g
+Heidelbeeren 150 g
+Bio Joghurt mild 3,8 % 400 ml
+Skyr Vanille 500 g
+Skyr Natur 200 g
+Parmesan Käse 40 g
+
+
+## 2026-01-08
+
+### Frühstück
+
+Haferflocken 80 g
+Banane 100 g
+Magerquark (Milsani Aldi) 250 g
+Vollmilch 3,5 % 150 ml
+Leinsamenöl 10 g
+Apfel mit Schale 140 g
+Mandarine 1 Stück (76 g)
+
+
+### Mittagessen
+
+Spaghetti in Pilzfrischkäse Sauce 1 Portion
+
+
+### Abendessen
+
+DIV 1 Portion
+
+
+### Snacks
+
+Pekannuss 30 g
+Kiwi 1 Stück (90 g)
+Bio Joghurt mild 3,8 % 400 ml
+
+
+## 2026-01-07
+
+### Frühstück
+
+Haferflocken 80 g
+Banane 100 g
+Magerquark (Milsani Aldi) 250 g
+Vollmilch 3,5 % 150 ml
+Leinsamenöl 10 g
+Apfel mit Schale 140 g
+Mandarine 1 Stück (76 g)
+
+
+### Mittagessen
+
+Spaghetti in Pilzfrischkäse Sauce 1 Portion
+
+
+### Abendessen
+
+Hühnerbrust roh 250 g
+Natur Reis (Uncle Ben’s) 2 Portionen (126 g)
+Linsen (Daucy) 100 g
+
+
+### Snacks
+
+Bio Joghurt mild 3,8 % 400 ml
+Leinsamenöl 35 g
+Haferflocken 50 g
+
+
+## 2026-01-06
+
+### Frühstück
+
+Mandarine frisch 1 Stück (76 g)
+Apfel mit Schale 140 g
+Haferflocken 80 g
+Banane 100 g
+Magerquark (Milsani Aldi) 250 g
+Vollmilch 3,5 % 150 ml
+Leinsamenöl 10 g
+
+
+### Mittagessen
+
+Spaghetti in Pilzfrischkäse Sauce 1 Portion
+
+
+### Abendessen
+
+Linsen (Daucy) 100 g
+Natur Reis (Uncle Ben’s) 2 Portionen (126 g)
+Hühnerbrust roh 250 g
+
+
+### Snacks
+
+Haferflocken 50 g
+Leinsamenöl 35 g
+Bio Joghurt mild 3,8 % 400 ml
+
+
+## 2026-01-05
+
+### Frühstück
+
+Himbeeren frisch 180 g
+Leinsamenöl 12 g
+Magerquark (Milsani Aldi) 250 g
+Vollmilch 3,5 % 150 ml
+Banane 100 g
+Haferflocken 80 g
+
+
+### Mittagessen
+
+Alaska Seelachsfilet 150 g
+Süßkartoffeln 250 g
+
+
+### Abendessen
+
+Kichererbsen Dose 265 g
+Sesampaste Tahini 30 g
+Olivenöl 30 g
+Natives Olivenöl extra 7 ml
+
+
+### Snacks
+
+Pekanusskerne 30 g
+Magerquark (Milsani Aldi) 200 g
+Heidelbeeren 100 g
+Bio Joghurt mild 3,8 % 400 ml
+
+
 ## 2025-12-16
 
 _No recognized meal sections found._

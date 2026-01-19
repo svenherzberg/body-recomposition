@@ -1,28 +1,28 @@
 # TDEE Zusammenfassung
 
-**Bereich der Schätzung:** 2025-10-19 — 2025-12-16
+**Bereich der Schätzung:** 2025-10-19 — 2026-01-19
 
-**Anzahl Estimates:** 58
+**Anzahl Estimates:** 84
 
 
 
 ## Kennzahlen
 
-- Mittlere geschätzte TDEE: **2275 kcal/Tag**
+- Mittlere geschätzte TDEE: **2672 kcal/Tag**
 
-- Median geschätzte TDEE: **2162 kcal/Tag**
+- Median geschätzte TDEE: **2329 kcal/Tag**
 
 
 
 ## Letzte Schätzung
 
-- Datum: 2025-12-16
+- Datum: 2026-01-19
 
-- Geschätzter TDEE: **2574 kcal/Tag**
+- Geschätzter TDEE: **1729 kcal/Tag**
 
-- Mittlere recorded Calories im Fenster: 2692 kcal/Tag
+- Mittlere recorded Calories im Fenster: 2796 kcal/Tag
 
-- Gewichtsänderung im Fenster: +0.20 kg
+- Gewichtsänderung im Fenster: +1.80 kg
 
 
 
@@ -30,11 +30,11 @@
 
 - Für moderaten Muskelaufbau: TDEE + ~250–500 kcal/Tag
 
-  - Vorschlag: **2575 kcal/Tag** (≈ TDEE + 300)
+  - Vorschlag: **2972 kcal/Tag** (≈ TDEE + 300)
 
 - Für langsamen Fettverlust: TDEE − ~300–600 kcal/Tag
 
-  - Beispiel Ziel (stärkeres Defizit): **1775 kcal/Tag**
+  - Beispiel Ziel (stärkeres Defizit): **2172 kcal/Tag**
 
 
 
